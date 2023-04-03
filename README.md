@@ -2,6 +2,8 @@
 
 Code examples from the post, [Ten Ways to Leverage Generative AI for Development on AWS](): Explore ten ways you can use Generative AI coding tools to increase your development productivity on AWS.
 
+In the post, we look at the ten ways you can use Generative AI coding tools, like GitHub Copilot, to increase your development productivity on AWS. All the code samples in this post can be found on GitHub.
+
 ```text
 .
 ├── README.md
