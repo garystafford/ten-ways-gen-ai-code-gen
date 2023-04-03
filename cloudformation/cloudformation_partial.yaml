@@ -1,0 +1,5 @@
+# write a cloudformation template to create a postgresql database instance
+AWSTemplateFormatVersion: 2010-09-09
+Description: Amazon RDS for PostgreSQL database instance
+Resources:
+  

@@ -1,0 +1,85 @@
+# Purpose: Creates an Amazon RDS for PostgreSQL database instance
+# Author: Gary A. Stafford
+# Date: 2023-04-02
+
+AWSTemplateFormatVersion: 2010-09-09
+Description: Amazon RDS for PostgreSQL database instance
+Parameters:
+  MyVPCCidrBlock:
+    Type: String
+  MySubnet1CidrBlock:
+    Type: String
+  MySubnet1AZ:
+    Type: String
+  MySubnet2CidrBlock:
+    Type: String
+  MySubnet2AZ:
+    Type: String
+Resources:
+  MyDatabaseInstance:
+    Type: AWS::RDS::DBInstance
+    Properties:
+      AllocatedStorage: "5"
+      DBInstanceClass: db.m5.large
+      Engine: postgres
+      EngineVersion: 15.1
+      MasterUsername: dbadmin
+      MasterUserPassword: dbadmin
+      DBName: mydb
+      DBSubnetGroupName: !Ref MySubnetGroup
+      VPCSecurityGroups:
+        - !Ref MySecurityGroup
+      Tags:
+        - Key: Name
+          Value: MyDatabaseInstance
+  MySubnetGroup:
+    Type: AWS::RDS::DBSubnetGroup
+    Properties:
+      DBSubnetGroupDescription: My database subnet group
+      SubnetIds:
+        - !Ref MySubnet1
+        - !Ref MySubnet2
+  MySecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: My database security group
+      VpcId: !Ref MyVPC
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 5432
+          ToPort: 5432
+          CidrIp: !GetAtt MyVPC.CidrBlock
+  MyVPC:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: !Ref MyVPCCidrBlock
+      EnableDnsSupport: true
+      EnableDnsHostnames: true
+      Tags:
+        - Key: Name
+          Value: MyVPC
+  MySubnet1:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref MyVPC
+      CidrBlock: !Ref MySubnet1CidrBlock
+      AvailabilityZone: !Ref MySubnet1AZ
+      Tags:
+        - Key: Name
+          Value: MySubnet1
+  MySubnet2:
+    Type: AWS::EC2::Subnet
+    Properties:
+      VpcId: !Ref MyVPC
+      CidrBlock: !Ref MySubnet2CidrBlock
+      AvailabilityZone: !Ref MySubnet2AZ
+      Tags:
+        - Key: Name
+          Value: MySubnet2
+Outputs:
+  MyDatabaseInstanceEndpoint:
+    Description: The database endpoint
+    Value: !GetAtt MyDatabaseInstance.Endpoint.Address
+  MyDatabaseInstancePort:
+    Description: The database port number
+    Value: !GetAtt MyDatabaseInstance.Endpoint.Port

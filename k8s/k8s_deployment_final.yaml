@@ -1,0 +1,46 @@
+# Purpose: Deploys NGINX to Kubernetes
+# Author: Gary A. Stafford
+# Date: 2023-04-02
+
+# write a kubernetes deployment manifest to deploy nginx
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+    app: nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:1.22.1-apline
+          ports:
+            - containerPort: 80
+          resources:
+            limits:
+              memory: 200Mi
+              cpu: 1
+            requests:
+              memory: 100Mi
+              cpu: 100m
+---
+# write a kubernetes service manifest to expose nginx
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service
+spec:
+  selector:
+    app: nginx
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80

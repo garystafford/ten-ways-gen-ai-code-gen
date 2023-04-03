@@ -1,0 +1,27 @@
+{
+    "name": "source_connector_mysql_kafka_avro_crm",
+    "config": {
+        "connector.class": "io.debezium.connector.mysql.MySqlConnector",
+        "tasks.max": "1",
+        "database.hostname": "mysql",
+        "database.port": "3306",
+        "database.user": "${secretManager:debezium:user}",
+        "database.password": "${secretManager:debezium:password}",
+        "database.server.id": "184054",
+        "database.server.name": "dbserver1",
+        "database.whitelist": "crm",
+        "database.history.kafka.bootstrap.servers": "kafka:9092",
+        "database.history.kafka.topic": "schema-changes.customers",
+        "include.schema.changes": "true",
+        "schema.name.adjustment.mode": "avro",
+        "transforms": "unwrap",
+        "transforms.unwrap.type": "io.debezium.transforms.ExtractNewRecordState",
+        "transforms.unwrap.drop.tombstones": "false",
+        "transforms.unwrap.delete.handling.mode": "rewrite",
+        "transforms.unwrap.add.fields": "op:STRING,source:STRING",
+        "key.converter": "io.confluent.connect.avro.AvroConverter",
+        "key.converter.schema.registry.url": "http://schema-registry:8081",
+        "value.converter": "io.confluent.connect.avro.AvroConverter",
+        "value.converter.schema.registry.url": "http://schema-registry:8081"
+    }
+}
