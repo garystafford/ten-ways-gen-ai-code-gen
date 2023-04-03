@@ -4,7 +4,7 @@ Code examples from the post, [Ten Ways to Leverage Generative AI for Development
 
 ## Resources
 
-All the code samples in this post are included here. Files with the suffix `_partial` are the partial code samples used to generate code with by GitHub Copilot. Files with the suffix `_final` are the final, complete code samples.
+All the code samples shown in this post are included in this project. Files with the suffix `_partial` are the partial code samples used to generate code with by GitHub Copilot. Files with the suffix `_final` are the final, complete code samples.
 
 ```text
 .
