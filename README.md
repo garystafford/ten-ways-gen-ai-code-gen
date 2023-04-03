@@ -44,10 +44,11 @@ All the code samples in this post are included here. Files with the suffix `_fin
 │   ├── spark_final.py
 │   └── spark_partial.py
 ├── terraform
-│   └── main.tf
+│   ├── main_final.tf
+│   └── main_partial.tf
 └── utilities
     ├── utility_final.py
     └── utility_partial.py
 
-13 directories, 28 files
+13 directories, 29 files
 ```
