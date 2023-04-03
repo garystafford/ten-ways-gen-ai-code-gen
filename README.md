@@ -6,21 +6,22 @@ In the post, we look at the ten ways you can use Generative AI coding tools, lik
 
 ```text
 .
+├── LICENSE
 ├── README.md
 ├── airflow
 │   ├── airflow_dag_final.py
 │   └── airflow_dag_partial.py
-├── cloudformation
-│   ├── cloudformation_final.json
-│   ├── cloudformation_final.yaml
-│   └── cloudformation_partial.yaml
-├── golang
+├── appdev
 │   ├── README.md
 │   ├── dynamodemo
 │   │   ├── go.mod
 │   │   ├── go.sum
 │   │   └── main.go
 │   └── main_partial.go
+├── cloudformation
+│   ├── cloudformation_final.json
+│   ├── cloudformation_final.yaml
+│   └── cloudformation_partial.yaml
 ├── iam
 │   ├── s3_policy_final.json
 │   └── s3_policy_partial.json
@@ -40,7 +41,11 @@ In the post, we look at the ten ways you can use Generative AI coding tools, lik
 ├── pyspark
 │   ├── spark_final.py
 │   └── spark_partial.py
+├── terraform
+│   └── main.tf
 └── utilities
     ├── utility_final.py
     └── utility_partial.py
+
+13 directories, 28 files
 ```
