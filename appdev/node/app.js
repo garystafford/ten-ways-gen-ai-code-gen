@@ -1,3 +1,7 @@
+// Purpose: Put a new item in a DynamoDB table
+// Author: Gary A. Stafford
+// Date: 2023-04-03
+
 import { DynamoDBClient, CreateTableCommand, PutItemCommand } from "@aws-sdk/client-dynamodb";
 
 const client = new DynamoDBClient({ region: "us-east-1" });
