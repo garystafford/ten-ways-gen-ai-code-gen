@@ -1,6 +1,29 @@
-import { DynamoDBClient, CreateTableCommand } from "@aws-sdk/client-dynamodb";
+import { DynamoDBClient, CreateTableCommand, PutItemCommand } from "@aws-sdk/client-dynamodb";
 
 const client = new DynamoDBClient({ region: "us-east-1" });
+
+function putItem() {
+    const params = {
+        "Item": {
+            "Artist": {
+                "S": "No One You Know"
+            },
+            "SongTitle": {
+                "S": "Call Me Today"
+            },
+            "AlbumTitle": {
+                "S": "Somewhat Famous"
+            },
+            "Awards": {
+                "N": "1"
+            }
+        },
+        "TableName": "Music"
+    };
+
+    const command = new PutItemCommand(params);
+    client.send(command).then((data) => console.log(data)).catch((err) => console.log(err));
+}
 
 // create a new DynamoDB table name "Music", with a partion key of "Artist" and a sort key of "SongTitle", and a read capacity of 5 and write capacity of 5 
 function createTable() {
@@ -36,4 +59,5 @@ function createTable() {
     client.send(command).then((data) => console.log(data)).catch((err) => console.log(err));
 }
 
-createTable();
+// createTable();
+putItem();
