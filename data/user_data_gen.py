@@ -143,6 +143,21 @@ def get_first_name_masculine():
         "Arthur",
         "Ryan",
         "Roger",
+        "Joe",
+        "Juan",
+        "Jack",
+        "Albert",
+        "Jonathan",
+        "Justin",
+        "Terry",
+        "Gerald",
+        "Keith",
+        "Samuel",
+        "Willie",
+        "Ralph",
+        "Lawrence",
+        "Nicholas",
+        "Roy",
     ]
 
     return random.choice(first_names_masculine)
@@ -202,6 +217,54 @@ def get_last_names():
         "Evans",
         "Edwards",
         "Collins",
+        "Stewart",
+        "Sanchez",
+        "Morris",
+        "Rogers",
+        "Reed",
+        "Cook",
+        "Morgan",
+        "Bell",
+        "Murphy",
+        "Bailey",
+        "Rivera",
+        "Cooper",
+        "Richardson",
+        "Cox",
+        "Howard",
+        "Ward",
+        "Torres",
+        "Peterson",
+        "Gray",
+        "Ramirez",
+        "James",
+        "Watson",
+        "Brooks",
+        "Kelly",
+        "Sanders",
+        "Price",
+        "Bennett",
+        "Wood",
+        "Barnes",
+        "Ross",
+        "Henderson",
+        "Coleman",
+        "Jenkins",
+        "Perry",
+        "Powell",
+        "Long",
+        "Patterson",
+        "Hughes",
+        "Flores",
+        "Washington",
+        "Butler",
+        "Simmons",
+        "Foster",
+        "Gonzales",
+        "Bryant",
+        "Alexander",
+        "Russell",
+        "Griffin",
     ]
 
     return random.choice(last_names)
@@ -218,7 +281,8 @@ def get_martial_status():
 
 # write a function that returns a person's ethinicity
 # return random ethinicity
-# 50% chance of being white, 12.5% chance of being black, 12.5% chance of being hispanic, 12.5% chance of being asian, 12.5% chance of being other
+# 50% chance of being white, 12.5% chance of being black, 
+# 12.5% chance of being hispanic, 12.5% chance of being asian, 12.5% chance of being other
 def get_ethinicity():
     ethinicity = ["White", "White", "White", "Black", "Hispanic", "Asian", "Other"]
 
