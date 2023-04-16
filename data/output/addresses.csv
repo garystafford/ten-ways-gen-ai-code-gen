@@ -1,0 +1,201 @@
+"id","address","city","state","zip","country","property_type","assessed_value"
+1,"7710 Dam Burg","Austin","TX","78701","United States","Vacant Land",251794
+2,"9123 Divide Alley","Chicago","IL","60602","United States","Townhouse",1014205
+3,"2019 Road Boulevard","Raleigh","NC","27601","United States","Multi Family",490770
+4,"2714 Third Burg","Miami","FL","33128","United States","Condo",54515
+5,"1896 Path Drive","Atlanta","GA","30303","United States","Mobile Home",779148
+6,"6834 Shores Boulevard","Omaha","NE","68102","United States","Multi Family",302214
+7,"6963 Ville Bluff","Colorado Springs","CO","80903","United States","Single Family",1125196
+8,"1685 Mission Brook","Pittsburgh","PA","15222","United States","Multi Family",241015
+9,"9520 Crest Square","Arlington","TX","76010","United States","Townhouse",949925
+10,"4138 Port Street","Washington","DC","20001","United States","Condo",103590
+11,"2041 Branch Avenue","Charlotte","NC","28202","United States","Multi Family",858804
+12,"2844 Branch Terrace","St. Louis","MO","63102","United States","Mobile Home",576569
+13,"8404 Spur Highway","Memphis","TN","38103","United States","Mobile Home",1084685
+14,"9679 Sixth Street","Bakersfield","CA","93301","United States","Single Family",923248
+15,"7053 Divide Terrace","San Francisco","CA","94102","United States","Multi Family",1057421
+16,"2324 Woods Drive","Long Beach","CA","90802","United States","Multi Family",222553
+17,"7239 Woods Road","Seattle","WA","98101","United States","Mobile Home",1012231
+18,"7815 Fork Highway","Columbus","OH","43215","United States","Vacant Land",121202
+19,"2491 Hollow Court","Indianapolis","IN","46204","United States","Commercial",413218
+20,"5095 Terrace Branch","Chicago","IL","60602","United States","Commercial",1114087
+21,"9092 Fifth Road","Tampa","FL","33602","United States","Condo",918478
+22,"3906 Dale Alley","Virginia Beach","VA","23451","United States","Single Family",1034008
+23,"6799 Dam Burg","St. Louis","MO","63102","United States","Townhouse",907305
+24,"5409 Heights Branch","Cincinnati","OH","45202","United States","Vacant Land",148823
+25,"1782 Heights Way","Sacramento","CA","95814","United States","Multi Family",385559
+26,"7118 Prairie Drive","Raleigh","NC","27601","United States","Single Family",379363
+27,"4699 Well Boulevard","Bakersfield","CA","93301","United States","Commercial",1125598
+28,"2834 Harbor Lane","Phoenix","AZ","85003","United States","Condo",605113
+29,"9815 Broadway Burg","Fort Worth","TX","76102","United States","Condo",726984
+30,"9184 Ash Lane","San Jose","CA","95113","United States","Farm",150168
+31,"3058 Burg Boulevard","Buffalo","NY","14202","United States","Commercial",800918
+32,"9484 Divide Terrace","Cincinnati","OH","45202","United States","Commercial",474816
+33,"704 Dale Highway","Albuquerque","NM","87102","United States","Multi Family",1027801
+34,"5844 Pine Parkway","El Paso","TX","79901","United States","Multi Family",477719
+35,"9060 Harbor Lane","Phoenix","AZ","85003","United States","Multi Family",741565
+36,"6749 Walk Bridge","San Antonio","TX","78205","United States","Townhouse",1199288
+37,"8464 Summit Drive","Seattle","WA","98101","United States","Condo",581786
+38,"3149 Ash Bridge","Tucson","AZ","85701","United States","Condo",834873
+39,"1651 Track Highway","San Diego","CA","92101","United States","Farm",149616
+40,"6533 Hickory Street","Tampa","FL","33602","United States","Mobile Home",253757
+41,"8879 Main Place","Pittsburgh","PA","15222","United States","Multi Family",1074215
+42,"2998 Crest Branch","Colorado Springs","CO","80903","United States","Commercial",574341
+43,"3290 Pass Square","Tampa","FL","33602","United States","Multi Family",582069
+44,"8453 Ridge Avenue","Tucson","AZ","85701","United States","Mobile Home",820403
+45,"3756 Skyway Lane","Fort Worth","TX","76102","United States","Condo",1146172
+46,"2887 Orchard Brook","Phoenix","AZ","85003","United States","Townhouse",737091
+47,"3465 Hickory Trail","Portland","OR","97201","United States","Commercial",233478
+48,"9500 Fourth Road","St. Louis","MO","63102","United States","Condo",635352
+49,"8483 Grove Burg","Newark","NJ","07102","United States","Mobile Home",508330
+50,"6550 Grove Street","San Antonio","TX","78205","United States","Condo",862436
+51,"3143 Grove Way","Louisville","KY","40202","United States","Condo",869162
+52,"9259 Prairie Circle","Miami","FL","33128","United States","Single Family",1191364
+53,"4029 Bridge Branch","San Jose","CA","95113","United States","Mobile Home",257151
+54,"1148 Walk Road","Baltimore","MD","21202","United States","Mobile Home",229558
+55,"9077 Downs Terrace","Miami","FL","33128","United States","Townhouse",436216
+56,"9771 Vista Burg","Jacksonville","FL","32202","United States","Mobile Home",663389
+57,"9927 Canyon Court","Columbus","OH","43215","United States","Vacant Land",1142847
+58,"9604 Road Parkway","Aurora","CO","80010","United States","Townhouse",843745
+59,"2626 Bluff Bluff","San Diego","CA","92101","United States","Multi Family",1175399
+60,"1128 Oak Way","Chicago","IL","60602","United States","Vacant Land",574216
+61,"5217 Turnpike Branch","Mesa","AZ","85201","United States","Multi Family",160246
+62,"1535 Second Place","Las Vegas","NV","89101","United States","Multi Family",492466
+63,"2127 Branch Avenue","New York","NY","10007","United States","Commercial",922618
+64,"4078 Worth Avenue","Sacramento","CA","95814","United States","Condo",1163065
+65,"3323 Orchard Highway","San Francisco","CA","94102","United States","Multi Family",859715
+66,"9565 Harbor Commons","Memphis","TN","38103","United States","Vacant Land",1178011
+67,"1031 Creek Drive","Colorado Springs","CO","80903","United States","Townhouse",1127831
+68,"9998 Landing Place","Denver","CO","80202","United States","Commercial",72585
+69,"604 Downs Bluff","Detroit","MI","48226","United States","Commercial",369031
+70,"720 Mills Bluff","Sacramento","CA","95814","United States","Condo",620983
+71,"6508 Way Square","Omaha","NE","68102","United States","Single Family",597900
+72,"1202 Way Avenue","Columbus","OH","43215","United States","Single Family",426788
+73,"7929 Prairie Lane","Kansas City","MO","64102","United States","Townhouse",571527
+74,"6682 Shores Court","Louisville","KY","40202","United States","Townhouse",250928
+75,"6694 Meadow Way","El Paso","TX","79901","United States","Townhouse",767708
+76,"4941 Pass Branch","Oklahoma City","OK","73102","United States","Vacant Land",953479
+77,"5664 Meadow Terrace","Arlington","TX","76010","United States","Condo",732518
+78,"7561 Branch Drive","Jacksonville","FL","32202","United States","Vacant Land",320110
+79,"5809 Worth Street","Minneapolis","MN","55402","United States","Multi Family",393182
+80,"601 Walk Lane","Milwaukee","WI","53202","United States","Single Family",799266
+81,"4780 Trail Brook","Miami","FL","33128","United States","Condo",723712
+82,"2377 Park Road","Houston","TX","77002","United States","Farm",147507
+83,"5658 Skyway Circle","Raleigh","NC","27601","United States","Farm",836418
+84,"4882 Hill Circle","Memphis","TN","38103","United States","Vacant Land",607620
+85,"9183 Wells Trail","Arlington","TX","76010","United States","Mobile Home",230748
+86,"3090 Branch Circle","Omaha","NE","68102","United States","Vacant Land",391474
+87,"4769 Turnpike Brook","Charlotte","NC","28202","United States","Condo",815869
+88,"4649 Tunnel Burg","Oakland","CA","94607","United States","Single Family",810017
+89,"6050 Harbor Terrace","Fresno","CA","93721","United States","Vacant Land",943693
+90,"7093 Terrace Square","New York","NY","10007","United States","Farm",1076622
+91,"2716 Cape Road","Indianapolis","IN","46204","United States","Townhouse",1087395
+92,"2097 Second Commons","San Jose","CA","95113","United States","Farm",419565
+93,"4255 Vista Circle","Milwaukee","WI","53202","United States","Single Family",1122502
+94,"2029 Fifth Drive","Indianapolis","IN","46204","United States","Townhouse",350346
+95,"5420 Cedar Avenue","Colorado Springs","CO","80903","United States","Multi Family",180032
+96,"658 Divide Parkway","El Paso","TX","79901","United States","Vacant Land",175778
+97,"3801 Vale Bend","Atlanta","GA","30303","United States","Vacant Land",692951
+98,"784 Wood Court","Newark","NJ","07102","United States","Commercial",415050
+99,"821 Bury Avenue","Memphis","TN","38103","United States","Farm",942838
+100,"5393 Ville Terrace","Kansas City","MO","64102","United States","Single Family",880641
+101,"4587 Landing Circle","Virginia Beach","VA","23451","United States","Vacant Land",1005664
+102,"9417 Burg Way","Seattle","WA","98101","United States","Vacant Land",334538
+103,"2468 Track Place","Raleigh","NC","27601","United States","Single Family",773885
+104,"8925 Path Square","Indianapolis","IN","46204","United States","Farm",146294
+105,"6494 Trail Court","Aurora","CO","80010","United States","Commercial",429541
+106,"530 Brook Place","Columbus","OH","43215","United States","Commercial",859556
+107,"6808 Ridge Circle","Philadelphia","PA","19107","United States","Condo",366497
+108,"7226 Third Bluff","San Francisco","CA","94102","United States","Vacant Land",667737
+109,"4335 Isle Lane","Indianapolis","IN","46204","United States","Condo",902117
+110,"8383 Path Bluff","St. Louis","MO","63102","United States","Single Family",250727
+111,"6719 Manor Alley","Seattle","WA","98101","United States","Mobile Home",1164783
+112,"4924 Way Highway","Nashville","TN","37203","United States","Condo",317012
+113,"9939 Crossing Bluff","Indianapolis","IN","46204","United States","Mobile Home",655650
+114,"7291 Vale Highway","Oklahoma City","OK","73102","United States","Townhouse",547909
+115,"7814 Seventh Bridge","Anchorage","AK","99501","United States","Condo",667730
+116,"8359 Meadows Burg","Tampa","FL","33602","United States","Vacant Land",864218
+117,"9355 Pine Lane","Miami","FL","33128","United States","Single Family",993828
+118,"640 Mount Bridge","Fresno","CA","93721","United States","Mobile Home",173279
+119,"3681 Main Court","San Antonio","TX","78205","United States","Vacant Land",373984
+120,"2678 Way Bluff","Los Angeles","CA","90001","United States","Townhouse",134917
+121,"1956 Parkway Boulevard","Washington","DC","20001","United States","Townhouse",338069
+122,"5570 Lake Trail","Phoenix","AZ","85003","United States","Single Family",867545
+123,"7138 Spring Branch","Memphis","TN","38103","United States","Single Family",744772
+124,"3382 Brook Branch","Colorado Springs","CO","80903","United States","Vacant Land",1160754
+125,"2109 Plains Terrace","Dallas","TX","75201","United States","Townhouse",91630
+126,"3411 Cove Alley","Buffalo","NY","14202","United States","Vacant Land",1047044
+127,"3554 Walk Boulevard","Bakersfield","CA","93301","United States","Commercial",912310
+128,"7108 Falls Commons","Baltimore","MD","21202","United States","Townhouse",798916
+129,"5693 Woods Lane","Arlington","TX","76010","United States","Commercial",380962
+130,"4551 Elm Branch","Mesa","AZ","85201","United States","Commercial",73450
+131,"511 Park Drive","Jacksonville","FL","32202","United States","Condo",824671
+132,"9644 Shores Trail","Cleveland","OH","44113","United States","Multi Family",948405
+133,"6969 Bend Circle","Phoenix","AZ","85003","United States","Townhouse",668357
+134,"3093 Falls Branch","Pittsburgh","PA","15222","United States","Single Family",143285
+135,"2439 Rocks Bluff","Baltimore","MD","21202","United States","Vacant Land",606438
+136,"248 Path Terrace","Philadelphia","PA","19107","United States","Commercial",706494
+137,"1309 Fifth Bridge","Louisville","KY","40202","United States","Single Family",1169562
+138,"7131 Tunnel Drive","Phoenix","AZ","85003","United States","Townhouse",570552
+139,"378 Trail Parkway","Mesa","AZ","85201","United States","Condo",138530
+140,"4147 Prairie Bridge","Cleveland","OH","44113","United States","Multi Family",441783
+141,"6330 Cape Road","Baltimore","MD","21202","United States","Mobile Home",394603
+142,"6322 Mountain Court","Bakersfield","CA","93301","United States","Commercial",1030664
+143,"3645 Skyway Burg","Jacksonville","FL","32202","United States","Condo",519882
+144,"7780 Station Road","Austin","TX","78701","United States","Townhouse",527931
+145,"2345 Lawn Bluff","Atlanta","GA","30303","United States","Single Family",1123098
+146,"9286 Bury Alley","Virginia Beach","VA","23451","United States","Townhouse",761308
+147,"2677 Fork Lane","Louisville","KY","40202","United States","Multi Family",944019
+148,"3101 Rock Bridge","St. Louis","MO","63102","United States","Multi Family",951188
+149,"564 Manor Avenue","Oakland","CA","94607","United States","Condo",997217
+150,"2772 Brook Boulevard","Bakersfield","CA","93301","United States","Single Family",719100
+151,"578 Vista Street","San Antonio","TX","78205","United States","Townhouse",633445
+152,"9883 Creek Circle","Los Angeles","CA","90001","United States","Farm",83149
+153,"2141 Ash Place","San Francisco","CA","94102","United States","Townhouse",332871
+154,"3592 Bend Burg","Nashville","TN","37203","United States","Multi Family",243725
+155,"5581 Road Trail","Virginia Beach","VA","23451","United States","Townhouse",932407
+156,"9474 Valley Drive","Bakersfield","CA","93301","United States","Multi Family",393454
+157,"8365 Shore Place","Albuquerque","NM","87102","United States","Townhouse",968327
+158,"7758 Spring Commons","Milwaukee","WI","53202","United States","Commercial",813732
+159,"5452 Downs Street","Kansas City","MO","64102","United States","Condo",1175655
+160,"225 Crest Parkway","Jacksonville","FL","32202","United States","Farm",203648
+161,"2590 Pine Terrace","Cincinnati","OH","45202","United States","Townhouse",980790
+162,"9972 Bury Square","Omaha","NE","68102","United States","Single Family",1129523
+163,"9041 Road Square","Columbus","OH","43215","United States","Multi Family",538859
+164,"1576 Elm Way","Minneapolis","MN","55402","United States","Farm",159052
+165,"8067 Place Road","Memphis","TN","38103","United States","Single Family",803045
+166,"3774 Tunnel Place","Dallas","TX","75201","United States","Mobile Home",234979
+167,"1732 Oaks Bend","Cleveland","OH","44113","United States","Single Family",880140
+168,"2858 Worth Terrace","Seattle","WA","98101","United States","Vacant Land",773747
+169,"2943 Mountain Square","Aurora","CO","80010","United States","Townhouse",723516
+170,"8425 River Burg","Las Vegas","NV","89101","United States","Townhouse",857445
+171,"3518 Hickory Alley","Tucson","AZ","85701","United States","Farm",1076330
+172,"2142 Mission Commons","San Antonio","TX","78205","United States","Condo",459720
+173,"5411 Village Road","Chicago","IL","60602","United States","Vacant Land",921561
+174,"3803 Seventh Drive","Newark","NJ","07102","United States","Condo",378485
+175,"5988 Bury Square","Fresno","CA","93721","United States","Single Family",1015297
+176,"1376 Turnpike Alley","Cincinnati","OH","45202","United States","Farm",136226
+177,"4704 Wells Parkway","Austin","TX","78701","United States","Vacant Land",311775
+178,"6626 Main Bridge","Las Vegas","NV","89101","United States","Condo",955188
+179,"8309 Mount Way","Jacksonville","FL","32202","United States","Townhouse",495590
+180,"3912 Hickory Court","Phoenix","AZ","85003","United States","Vacant Land",281430
+181,"3078 Grove Avenue","Detroit","MI","48226","United States","Single Family",431959
+182,"2448 Dam Road","Minneapolis","MN","55402","United States","Single Family",113588
+183,"7690 Cape Commons","Chicago","IL","60602","United States","Single Family",314047
+184,"7863 Pike Bluff","Oakland","CA","94607","United States","Multi Family",175560
+185,"8393 Harbor Parkway","Washington","DC","20001","United States","Mobile Home",674743
+186,"9879 Third Bridge","Baltimore","MD","21202","United States","Multi Family",829164
+187,"6791 Meadows Commons","Oakland","CA","94607","United States","Multi Family",262553
+188,"7263 Cape Avenue","Portland","OR","97201","United States","Single Family",911182
+189,"4890 Wells Alley","Chicago","IL","60602","United States","Townhouse",423880
+190,"2624 Mission Bluff","Cincinnati","OH","45202","United States","Mobile Home",843074
+191,"979 Dam Road","Albuquerque","NM","87102","United States","Single Family",1149176
+192,"9919 Spring Way","Indianapolis","IN","46204","United States","Commercial",525128
+193,"3961 Station Road","Long Beach","CA","90802","United States","Vacant Land",800066
+194,"6221 Bury Burg","Indianapolis","IN","46204","United States","Vacant Land",727115
+195,"1070 Grove Trail","Jacksonville","FL","32202","United States","Townhouse",1184598
+196,"484 Dam Parkway","Sacramento","CA","95814","United States","Mobile Home",664649
+197,"7926 Pike Square","San Diego","CA","92101","United States","Condo",883054
+198,"7805 Meadows Burg","Sacramento","CA","95814","United States","Vacant Land",299420
+199,"7179 Crest Highway","San Jose","CA","95113","United States","Farm",646077
+200,"3892 Wood Commons","Tampa","FL","33602","United States","Single Family",104891

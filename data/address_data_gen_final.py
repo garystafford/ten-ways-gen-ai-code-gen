@@ -1,4 +1,4 @@
-# Purpose: Generate us address data
+# Purpose: Generate US residential address data
 # Author: Gary A. Stafford and GitHub Copilot
 # Date: 2023-04-13
 # Usage: python3 address_data_gen_final.py 100
@@ -259,7 +259,7 @@ def get_property_type():
 # string values must be enclosed in double quotes
 def write_data(rec_count):
     address_id = 0
-    with open("addresses.csv", "w", newline="") as csv_file:
+    with open("output/addresses.csv", "w", newline="") as csv_file:
         csv_writer = csv.writer(
             csv_file, delimiter=",", quotechar='"', quoting=csv.QUOTE_NONNUMERIC
         )

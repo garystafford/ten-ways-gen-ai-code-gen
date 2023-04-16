@@ -281,7 +281,7 @@ def get_martial_status():
 
 # write a function that returns a person's ethinicity
 # return random ethinicity
-# 50% chance of being white, 12.5% chance of being black, 
+# 50% chance of being white, 12.5% chance of being black,
 # 12.5% chance of being hispanic, 12.5% chance of being asian, 12.5% chance of being other
 def get_ethinicity():
     ethinicity = ["White", "White", "White", "Black", "Hispanic", "Asian", "Other"]
@@ -306,6 +306,17 @@ def get_dob():
     dob = dob.strftime("%Y-%m-%d")
     return dob
 
+# write a function that returns a gender based on a random number
+# odds of being female are 40%, male are 53%, transgender are 1%, and other are 6%
+def get_gender(gender):
+    if gender == 100:
+        return "Transgender"
+    elif gender >= 94:
+        return "Other"
+    elif gender <= 40:
+        return "Female"
+    return "Male"
+
 
 # create a function to write the users records to a csv file called users.csv
 # use an input parameter to specify the number of records to write
@@ -315,7 +326,7 @@ def get_dob():
 def write_data(rec_count):
     user_id = 0
 
-    with open("users.csv", "w", newline="") as csv_file:
+    with open("output/users.csv", "w", newline="") as csv_file:
         csv_writer = csv.writer(
             csv_file, delimiter=",", quotechar='"', quoting=csv.QUOTE_NONNUMERIC
         )
@@ -326,6 +337,7 @@ def write_data(rec_count):
                 "first_name",
                 "last_name",
                 "dob",
+                "gender",
                 "martital_status",
                 "ethinicity",
             ]
@@ -333,13 +345,13 @@ def write_data(rec_count):
 
         for i in range(rec_count):
             user_id += 1
+            gender = int(random.randint(1, 100))
             first_name = (
-                get_first_name_feminine()
-                if random.randint(1, 5) <= 2
-                else get_first_name_masculine()
+                get_first_name_feminine() if gender <= 32 else get_first_name_masculine()
             )
             last_name = get_last_names()
             dob = get_dob()
+            gender = get_gender(gender)
             martial_status = get_martial_status()
             ethinicity = get_ethinicity()
 
@@ -349,6 +361,7 @@ def write_data(rec_count):
                     first_name,
                     last_name,
                     dob,
+                    gender,
                     martial_status,
                     ethinicity,
                 ]
