@@ -1,3 +1,9 @@
+# Purpose: Generate coffee shop sales data
+# Author: Gary A. Stafford and GitHub Copilot
+# Date: 2023-04-12
+# Usage: python3 coffee_shop_data_gen.py 100
+# Command-line argument(s): rec_count (number of records to generate as an integer)
+
 # write a program that creates synthetic sales data for a coffee shop
 # the program should accept a command line argument that specifies the number of records to generate
 # the program should write the sales data to a file called coffee_shop_sales.csv# the program should contain a main function that calls the other functions
@@ -29,10 +35,11 @@ def main():
     write_data(num_recs)
 
 
-# create a function to return one random item from list of dictionaries
-# containing 15 drink items and 10 food items sold in a coffee shop
-# including the product id, product name, calories, price, and type (food or drink)
+# write a function to create list of dictionaries
+# the list of dictionaries should contain 15 drink items and 10 food items sold in a coffee shop
+# include the product id, product name, calories, price, and type (food or drink)
 # capilize the first letter of each product name
+# return a random item from the list of dictionaries
 def get_product():
     products = [
         {
@@ -216,11 +223,11 @@ def get_product():
     return random.choice(products)
 
 
-# create a function to return a random sales record
+# write a function to return a random sales record
 # the record should be a dictionary with the following fields:
 #   - id (an incrementing integer starting at 1)
 #   - date (a random date between 1/1/2022 and 12/31/2022)
-#   - time (a random time between 6:00am and 9:00pm)
+#   - time (a random time between 6:00am and 9:00pm in 1 minute increments)
 #   - product_id, product, calories, price, and type (from the get_product function)
 #   - quantity (a random integer between 1 and 3)
 #   - amount (price * quantity)
@@ -273,7 +280,8 @@ def get_sales_record():
     return sales_record
 
 
-# create a function to write the sales records to a csv file called coffee_shop_sales.csv
+# write a function to write the sales records
+# to a csv file called coffee_shop_sales.csv
 # use an input parameter to specify the number of records to write
 # the csv file must have a header row
 # the csv file must be comma delimited

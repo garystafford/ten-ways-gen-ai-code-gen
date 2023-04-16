@@ -45,21 +45,21 @@ def get_product():
             "product": "Cappuccino",
             "calories": 100,
             "price": 3.00,
-            "type": "drink"
+            "type": "drink",
         },
         {
             "id": 3,
             "product": "Americano",
             "calories": 5,
             "price": 2.50,
-            "type": "drink"
+            "type": "drink",
         },
         {
             "id": 4,
             "product": "Espresso",
             "calories": 10,
             "price": 2.00,
-            "type": "drink"
+            "type": "drink",
         },
         {
             "id": 5,
@@ -73,14 +73,14 @@ def get_product():
             "product": "Iced Coffee",
             "calories": 80,
             "price": 2.50,
-            "type": "drink"
+            "type": "drink",
         },
         {
             "id": 7,
             "product": "Hot Chocolate",
             "calories": 300,
             "price": 3.50,
-            "type": "drink"
+            "type": "drink",
         },
         {
             "id": 8,
@@ -101,21 +101,21 @@ def get_product():
             "product": "Smoothie",
             "calories": 200,
             "price": 4.00,
-            "type": "drink"
+            "type": "drink",
         },
         {
             "id": 11,
             "product": "Iced Tea",
             "calories": 0,
             "price": 2.50,
-            "type": "drink"
+            "type": "drink",
         },
         {
             "id": 12,
             "product": "Lemonade",
             "calories": 120,
             "price": 3.00,
-            "type": "drink"
+            "type": "drink",
         },
         {
             "id": 13,
@@ -129,21 +129,21 @@ def get_product():
             "product": "Chai Tea",
             "calories": 200,
             "price": 3.50,
-            "type": "drink"
+            "type": "drink",
         },
         {
             "id": 15,
             "product": "Iced Chai",
             "calories": 250,
             "price": 4.00,
-            "type": "drink"
+            "type": "drink",
         },
         {
             "id": 16,
             "product": "Croissant",
             "calories": 231,
             "price": 2.99,
-            "type": "food"
+            "type": "food",
         },
         {
             "id": 17,
@@ -164,7 +164,7 @@ def get_product():
             "product": "Sandwich",
             "calories": 512,
             "price": 6.99,
-            "type": "food"
+            "type": "food",
         },
         {
             "id": 20,

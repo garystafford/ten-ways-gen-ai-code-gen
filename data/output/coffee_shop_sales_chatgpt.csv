@@ -1,0 +1,201 @@
+id,date,time,product_id,product,calories,price,type,quantity,amount,payment_type
+1,01/07/2022,08:47 AM,1,Americano,5,2.5,drink,2,5.0,credit
+2,08/14/2022,10:24 AM,2,Tea,0,2.0,drink,2,6.0,gift card
+3,09/17/2022,06:13 PM,3,Americano,5,2.5,drink,3,5.0,debit
+4,05/27/2022,10:22 AM,4,Chai Tea,200,3.5,drink,3,7.0,credit
+5,10/13/2022,06:16 PM,5,Iced Coffee,80,2.5,drink,2,7.5,credit
+6,09/29/2022,08:48 AM,6,Hot Tea,0,2.0,drink,3,4.0,gift card
+7,01/02/2022,12:36 PM,7,Sandwich,512,6.99,food,2,20.97,debit
+8,01/04/2022,08:35 PM,8,Tea,0,2.0,drink,1,4.0,debit
+9,06/06/2022,02:11 PM,9,Chai Tea,200,3.5,drink,3,10.5,credit
+10,02/22/2022,07:39 PM,10,Sandwich,512,6.99,food,1,20.97,cash
+11,08/17/2022,10:05 AM,11,Cake,512,5.99,food,1,5.99,gift card
+12,04/15/2022,04:38 PM,12,Chai Tea,200,3.5,drink,3,7.0,cash
+13,12/19/2022,07:17 AM,13,Iced Coffee,80,2.5,drink,2,2.5,gift card
+14,04/21/2022,04:47 PM,14,Iced Tea,0,2.5,drink,3,5.0,debit
+15,06/22/2022,01:26 PM,15,Iced Tea,0,2.5,drink,2,7.5,credit
+16,01/10/2022,08:29 AM,16,Iced Tea,0,2.5,drink,1,7.5,cash
+17,08/17/2022,06:37 PM,17,Hot Tea,0,2.0,drink,1,6.0,gift card
+18,05/12/2022,09:42 AM,18,Americano,5,2.5,drink,2,2.5,credit
+19,12/29/2022,06:45 PM,19,Cake,512,5.99,food,3,5.99,cash
+20,08/31/2022,03:23 PM,20,Latte,120,3.5,drink,1,10.5,gift card
+21,05/11/2022,03:57 PM,21,Espresso,10,2.0,drink,3,4.0,cash
+22,08/25/2022,06:04 AM,22,Quiche,456,4.99,food,2,14.97,debit
+23,07/13/2022,07:48 AM,23,Pastry,397,3.99,food,3,3.99,gift card
+24,08/07/2022,01:27 PM,24,Mocha,250,4.0,drink,2,12.0,credit
+25,04/22/2022,03:45 PM,25,Tea,0,2.0,drink,3,4.0,credit
+26,02/13/2022,07:47 PM,26,Frappe,450,5.0,drink,1,15.0,cash
+27,02/19/2022,11:11 AM,27,Espresso,10,2.0,drink,2,6.0,cash
+28,01/31/2022,03:20 PM,28,Cappuccino,100,3.0,drink,1,6.0,debit
+29,07/21/2022,05:09 PM,29,Lemonade,120,3.0,drink,3,3.0,debit
+30,07/14/2022,11:57 AM,30,Tea,0,2.0,drink,3,4.0,debit
+31,08/28/2022,09:43 PM,31,Chai Tea,200,3.5,drink,1,7.0,cash
+32,07/24/2022,09:48 PM,32,Bagel,289,3.49,food,2,10.47,credit
+33,02/23/2022,08:17 PM,33,Cake,512,5.99,food,2,11.98,credit
+34,06/12/2022,09:45 AM,34,Chai Tea,200,3.5,drink,1,10.5,gift card
+35,07/01/2022,06:59 PM,35,Scone,335,2.49,food,2,7.470000000000001,credit
+36,04/23/2022,09:58 PM,36,Muffin,426,3.99,food,2,3.99,credit
+37,08/25/2022,03:38 PM,37,Espresso,10,2.0,drink,1,6.0,debit
+38,02/11/2022,07:21 AM,38,Wrap,388,5.99,food,3,17.97,debit
+39,08/20/2022,04:57 PM,39,Muffin,426,3.99,food,2,11.97,debit
+40,05/24/2022,10:36 AM,40,Croissant,231,2.99,food,3,5.98,credit
+41,05/14/2022,10:44 AM,41,Americano,5,2.5,drink,1,2.5,gift card
+42,05/28/2022,04:58 PM,42,Frappe,450,5.0,drink,3,5.0,cash
+43,01/09/2022,09:20 PM,43,Iced Coffee,80,2.5,drink,1,7.5,credit
+44,06/21/2022,07:51 PM,44,Muffin,426,3.99,food,1,7.98,credit
+45,08/15/2022,08:44 PM,45,Croissant,231,2.99,food,1,2.99,credit
+46,03/07/2022,03:04 PM,46,Latte,120,3.5,drink,2,3.5,gift card
+47,10/04/2022,04:33 PM,47,Latte,120,3.5,drink,2,7.0,cash
+48,12/27/2022,10:55 AM,48,Espresso,10,2.0,drink,3,2.0,cash
+49,12/20/2022,01:28 PM,49,Espresso,10,2.0,drink,2,2.0,credit
+50,02/27/2022,08:29 PM,50,Muffin,426,3.99,food,1,11.97,gift card
+51,05/09/2022,04:27 PM,51,Chai Tea,200,3.5,drink,3,7.0,gift card
+52,05/09/2022,06:41 PM,52,Tea,0,2.0,drink,3,6.0,debit
+53,06/22/2022,01:34 PM,53,Pastry,397,3.99,food,2,11.97,debit
+54,09/25/2022,07:59 PM,54,Muffin,426,3.99,food,1,7.98,credit
+55,09/07/2022,09:33 AM,55,Latte,120,3.5,drink,2,7.0,gift card
+56,01/16/2022,07:16 PM,56,Americano,5,2.5,drink,3,7.5,credit
+57,09/10/2022,11:01 AM,57,Iced Coffee,80,2.5,drink,1,2.5,gift card
+58,01/11/2022,09:43 AM,58,Wrap,388,5.99,food,3,11.98,debit
+59,02/23/2022,02:06 PM,59,Iced Coffee,80,2.5,drink,3,7.5,credit
+60,09/12/2022,05:26 PM,60,Chai Tea,200,3.5,drink,2,10.5,credit
+61,05/22/2022,08:18 PM,61,Iced Chai,250,4.0,drink,1,4.0,cash
+62,01/21/2022,03:10 PM,62,Cake,512,5.99,food,2,11.98,cash
+63,04/14/2022,05:38 PM,63,Frappe,450,5.0,drink,1,15.0,credit
+64,02/05/2022,08:19 PM,64,Latte,120,3.5,drink,3,10.5,cash
+65,05/21/2022,10:30 AM,65,Bagel,289,3.49,food,1,6.98,debit
+66,05/15/2022,04:21 PM,66,Iced Coffee,80,2.5,drink,1,7.5,credit
+67,10/22/2022,12:32 PM,67,Quiche,456,4.99,food,3,9.98,credit
+68,05/19/2022,12:10 PM,68,Salad,231,7.99,food,3,23.97,cash
+69,09/18/2022,08:12 AM,69,Pastry,397,3.99,food,3,11.97,debit
+70,04/09/2022,09:15 PM,70,Espresso,10,2.0,drink,2,4.0,cash
+71,08/14/2022,11:10 AM,71,Mocha,250,4.0,drink,1,8.0,gift card
+72,11/08/2022,09:15 PM,72,Americano,5,2.5,drink,3,2.5,credit
+73,04/15/2022,06:40 PM,73,Cake,512,5.99,food,3,11.98,credit
+74,12/28/2022,05:09 PM,74,Tea,0,2.0,drink,3,4.0,credit
+75,01/02/2022,03:31 PM,75,Smoothie,200,4.0,drink,2,8.0,debit
+76,03/23/2022,02:51 PM,76,Frappe,450,5.0,drink,2,10.0,gift card
+77,02/27/2022,06:37 AM,77,Quiche,456,4.99,food,1,14.97,credit
+78,03/24/2022,09:32 PM,78,Iced Tea,0,2.5,drink,2,2.5,credit
+79,12/13/2022,08:15 PM,79,Mocha,250,4.0,drink,1,12.0,cash
+80,08/26/2022,10:11 AM,80,Mocha,250,4.0,drink,2,8.0,gift card
+81,01/24/2022,04:15 PM,81,Iced Tea,0,2.5,drink,3,7.5,credit
+82,11/27/2022,08:42 AM,82,Smoothie,200,4.0,drink,3,8.0,credit
+83,06/01/2022,09:08 AM,83,Iced Tea,0,2.5,drink,3,2.5,credit
+84,08/17/2022,05:02 PM,84,Muffin,426,3.99,food,1,3.99,credit
+85,04/29/2022,09:18 PM,85,Cappuccino,100,3.0,drink,3,9.0,debit
+86,03/17/2022,08:36 AM,86,Wrap,388,5.99,food,1,11.98,cash
+87,04/13/2022,05:39 PM,87,Iced Chai,250,4.0,drink,2,8.0,cash
+88,04/11/2022,08:51 AM,88,Cappuccino,100,3.0,drink,2,3.0,cash
+89,04/08/2022,12:50 PM,89,Bagel,289,3.49,food,3,10.47,gift card
+90,11/07/2022,06:51 PM,90,Iced Tea,0,2.5,drink,3,7.5,credit
+91,04/12/2022,07:41 PM,91,Muffin,426,3.99,food,3,11.97,cash
+92,05/01/2022,06:45 PM,92,Americano,5,2.5,drink,1,2.5,credit
+93,09/24/2022,07:48 AM,93,Iced Tea,0,2.5,drink,3,2.5,debit
+94,07/21/2022,07:07 AM,94,Cappuccino,100,3.0,drink,2,6.0,debit
+95,04/25/2022,06:08 AM,95,Mocha,250,4.0,drink,1,8.0,credit
+96,03/18/2022,07:31 AM,96,Cappuccino,100,3.0,drink,2,6.0,gift card
+97,08/12/2022,09:13 PM,97,Espresso,10,2.0,drink,3,4.0,cash
+98,09/27/2022,08:39 AM,98,Americano,5,2.5,drink,3,2.5,cash
+99,09/08/2022,08:21 PM,99,Croissant,231,2.99,food,2,2.99,credit
+100,02/25/2022,12:03 PM,100,Sandwich,512,6.99,food,3,20.97,debit
+101,12/12/2022,03:11 PM,101,Iced Coffee,80,2.5,drink,1,5.0,cash
+102,03/09/2022,08:27 PM,102,Croissant,231,2.99,food,3,2.99,credit
+103,01/22/2022,04:25 PM,103,Hot Chocolate,300,3.5,drink,2,3.5,credit
+104,05/23/2022,08:39 PM,104,Salad,231,7.99,food,3,7.99,cash
+105,12/13/2022,07:28 AM,105,Hot Tea,0,2.0,drink,1,2.0,cash
+106,05/27/2022,07:48 PM,106,Hot Tea,0,2.0,drink,2,4.0,gift card
+107,05/10/2022,09:39 PM,107,Espresso,10,2.0,drink,1,2.0,cash
+108,04/18/2022,10:36 AM,108,Hot Tea,0,2.0,drink,1,4.0,credit
+109,11/11/2022,09:15 PM,109,Iced Tea,0,2.5,drink,3,5.0,gift card
+110,05/24/2022,10:21 AM,110,Quiche,456,4.99,food,1,9.98,cash
+111,07/14/2022,04:04 PM,111,Iced Tea,0,2.5,drink,1,7.5,credit
+112,08/19/2022,05:25 PM,112,Salad,231,7.99,food,1,15.98,cash
+113,09/01/2022,10:26 AM,113,Smoothie,200,4.0,drink,3,8.0,gift card
+114,12/03/2022,12:41 PM,114,Scone,335,2.49,food,3,2.49,cash
+115,10/14/2022,09:36 AM,115,Quiche,456,4.99,food,1,9.98,gift card
+116,03/03/2022,09:35 AM,116,Iced Tea,0,2.5,drink,2,5.0,debit
+117,09/24/2022,07:08 AM,117,Lemonade,120,3.0,drink,3,6.0,credit
+118,09/08/2022,02:05 PM,118,Iced Tea,0,2.5,drink,1,2.5,cash
+119,12/08/2022,10:47 AM,119,Mocha,250,4.0,drink,3,12.0,credit
+120,05/30/2022,07:41 AM,120,Smoothie,200,4.0,drink,2,12.0,debit
+121,08/29/2022,08:39 AM,121,Iced Tea,0,2.5,drink,2,5.0,debit
+122,01/10/2022,06:26 AM,122,Frappe,450,5.0,drink,3,5.0,debit
+123,04/26/2022,10:22 AM,123,Chai Tea,200,3.5,drink,2,3.5,debit
+124,12/02/2022,06:45 PM,124,Latte,120,3.5,drink,3,7.0,gift card
+125,03/06/2022,10:13 AM,125,Lemonade,120,3.0,drink,2,9.0,debit
+126,12/29/2022,09:22 AM,126,Smoothie,200,4.0,drink,3,12.0,debit
+127,05/22/2022,07:31 PM,127,Hot Chocolate,300,3.5,drink,1,7.0,debit
+128,05/19/2022,05:05 PM,128,Hot Chocolate,300,3.5,drink,3,7.0,gift card
+129,01/15/2022,02:17 PM,129,Wrap,388,5.99,food,2,11.98,debit
+130,09/19/2022,04:08 PM,130,Hot Chocolate,300,3.5,drink,3,3.5,debit
+131,06/26/2022,11:26 AM,131,Wrap,388,5.99,food,3,11.98,debit
+132,08/23/2022,07:02 PM,132,Bagel,289,3.49,food,2,6.98,debit
+133,02/08/2022,08:09 PM,133,Muffin,426,3.99,food,3,3.99,debit
+134,02/14/2022,10:15 AM,134,Mocha,250,4.0,drink,3,12.0,gift card
+135,09/28/2022,03:35 PM,135,Iced Chai,250,4.0,drink,2,8.0,cash
+136,08/27/2022,08:39 AM,136,Cake,512,5.99,food,1,11.98,gift card
+137,11/04/2022,07:47 PM,137,Cappuccino,100,3.0,drink,3,9.0,cash
+138,01/02/2022,04:31 PM,138,Cappuccino,100,3.0,drink,1,9.0,credit
+139,11/09/2022,06:54 PM,139,Cake,512,5.99,food,1,17.97,cash
+140,08/14/2022,10:41 AM,140,Latte,120,3.5,drink,3,10.5,credit
+141,08/26/2022,01:51 PM,141,Lemonade,120,3.0,drink,3,6.0,credit
+142,02/02/2022,03:11 PM,142,Scone,335,2.49,food,3,2.49,credit
+143,02/04/2022,09:27 PM,143,Hot Chocolate,300,3.5,drink,3,7.0,credit
+144,04/07/2022,05:35 PM,144,Iced Chai,250,4.0,drink,2,12.0,gift card
+145,07/29/2022,02:10 PM,145,Hot Tea,0,2.0,drink,2,2.0,cash
+146,10/20/2022,02:43 PM,146,Chai Tea,200,3.5,drink,1,7.0,debit
+147,05/02/2022,08:37 AM,147,Lemonade,120,3.0,drink,1,3.0,debit
+148,07/13/2022,10:25 AM,148,Hot Chocolate,300,3.5,drink,3,7.0,gift card
+149,08/03/2022,12:12 PM,149,Cake,512,5.99,food,1,17.97,credit
+150,02/18/2022,07:15 PM,150,Americano,5,2.5,drink,1,7.5,debit
+151,02/22/2022,01:30 PM,151,Croissant,231,2.99,food,2,5.98,cash
+152,05/09/2022,06:43 AM,152,Americano,5,2.5,drink,1,7.5,debit
+153,04/09/2022,09:50 PM,153,Smoothie,200,4.0,drink,1,8.0,cash
+154,04/15/2022,09:32 AM,154,Wrap,388,5.99,food,3,11.98,debit
+155,05/19/2022,10:21 AM,155,Americano,5,2.5,drink,2,7.5,cash
+156,07/10/2022,09:01 PM,156,Wrap,388,5.99,food,3,17.97,gift card
+157,05/22/2022,09:41 PM,157,Bagel,289,3.49,food,1,3.49,gift card
+158,09/03/2022,02:28 PM,158,Americano,5,2.5,drink,2,7.5,cash
+159,04/21/2022,03:29 PM,159,Pastry,397,3.99,food,3,7.98,credit
+160,02/05/2022,01:49 PM,160,Iced Tea,0,2.5,drink,1,2.5,gift card
+161,09/04/2022,04:03 PM,161,Bagel,289,3.49,food,3,10.47,debit
+162,10/07/2022,05:15 PM,162,Sandwich,512,6.99,food,2,13.98,credit
+163,06/07/2022,06:06 PM,163,Mocha,250,4.0,drink,2,4.0,debit
+164,08/03/2022,06:43 AM,164,Americano,5,2.5,drink,2,7.5,gift card
+165,02/27/2022,07:27 PM,165,Hot Chocolate,300,3.5,drink,2,7.0,cash
+166,10/07/2022,11:04 AM,166,Salad,231,7.99,food,3,23.97,gift card
+167,07/01/2022,07:25 PM,167,Smoothie,200,4.0,drink,2,12.0,credit
+168,05/09/2022,09:29 PM,168,Iced Chai,250,4.0,drink,2,4.0,credit
+169,06/18/2022,06:15 PM,169,Wrap,388,5.99,food,2,17.97,gift card
+170,04/23/2022,11:54 AM,170,Bagel,289,3.49,food,2,3.49,credit
+171,11/09/2022,02:26 PM,171,Lemonade,120,3.0,drink,1,6.0,cash
+172,05/31/2022,09:58 AM,172,Hot Chocolate,300,3.5,drink,3,7.0,cash
+173,09/18/2022,11:18 AM,173,Mocha,250,4.0,drink,3,4.0,cash
+174,05/14/2022,02:25 PM,174,Iced Tea,0,2.5,drink,1,2.5,gift card
+175,12/26/2022,12:39 PM,175,Americano,5,2.5,drink,3,7.5,debit
+176,08/07/2022,01:52 PM,176,Wrap,388,5.99,food,1,11.98,credit
+177,02/12/2022,12:11 PM,177,Hot Chocolate,300,3.5,drink,3,3.5,debit
+178,01/28/2022,11:38 AM,178,Chai Tea,200,3.5,drink,1,7.0,gift card
+179,02/23/2022,04:22 PM,179,Hot Tea,0,2.0,drink,3,4.0,gift card
+180,04/27/2022,02:35 PM,180,Espresso,10,2.0,drink,2,4.0,debit
+181,05/17/2022,05:50 PM,181,Croissant,231,2.99,food,2,5.98,debit
+182,10/10/2022,06:58 AM,182,Sandwich,512,6.99,food,1,20.97,gift card
+183,11/05/2022,11:34 AM,183,Iced Chai,250,4.0,drink,2,8.0,cash
+184,07/05/2022,06:29 PM,184,Quiche,456,4.99,food,2,9.98,gift card
+185,06/29/2022,08:53 AM,185,Cake,512,5.99,food,1,11.98,credit
+186,03/23/2022,07:11 PM,186,Mocha,250,4.0,drink,3,8.0,cash
+187,10/30/2022,05:40 PM,187,Iced Coffee,80,2.5,drink,1,2.5,gift card
+188,11/15/2022,06:08 AM,188,Chai Tea,200,3.5,drink,3,7.0,credit
+189,07/15/2022,11:43 AM,189,Mocha,250,4.0,drink,1,8.0,debit
+190,02/22/2022,08:37 AM,190,Cappuccino,100,3.0,drink,3,3.0,gift card
+191,06/19/2022,03:44 PM,191,Croissant,231,2.99,food,3,8.97,debit
+192,07/20/2022,01:30 PM,192,Smoothie,200,4.0,drink,1,12.0,gift card
+193,05/14/2022,10:40 AM,193,Hot Chocolate,300,3.5,drink,1,10.5,debit
+194,05/26/2022,01:50 PM,194,Hot Chocolate,300,3.5,drink,2,7.0,cash
+195,07/24/2022,09:17 AM,195,Scone,335,2.49,food,2,2.49,debit
+196,10/16/2022,06:19 AM,196,Chai Tea,200,3.5,drink,3,10.5,gift card
+197,06/17/2022,09:42 AM,197,Wrap,388,5.99,food,2,5.99,credit
+198,07/10/2022,11:25 AM,198,Iced Chai,250,4.0,drink,1,12.0,cash
+199,08/15/2022,08:11 PM,199,Smoothie,200,4.0,drink,3,4.0,gift card
+200,02/23/2022,05:36 PM,200,Chai Tea,200,3.5,drink,1,3.5,credit

@@ -3,7 +3,6 @@
 # Date: 2023-04-13
 # Usage: pytest coffee_shop_data_gen_tests.py -v
 
-
 # write a python class that inherits from unittest.TestCase
 # write a unit test for the get_product function
 # write a unit test for the get_sales_record function
@@ -16,6 +15,7 @@ from datetime import datetime
 from coffee_shop_data_gen_final import get_product, get_sales_record, write_data
 
 
+# write a python class that inherits from unittest.TestCase
 class TestCoffeeShop(unittest.TestCase):
     # write a unit test for the get_product function
     def test_get_product(self):

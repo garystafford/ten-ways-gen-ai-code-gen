@@ -1,3 +1,9 @@
+# Purpose: Generate coffee shop sales data
+# Author: OpenAI ChatGPT
+# Date: 2023-04-14
+# Usage: python3 chat_gpt_raw_code.py
+# Command-line argument(s): None
+
 # Original OpenAI ChatGPT prompt:
 # Create a Python3 program to generate 100 sales for 5 common items sold in a coffee shop.
 # The data should be written to a CSV file. The file should include a header row.
@@ -15,12 +21,12 @@
 #   - payment type (cash, credit, debit, or gift card)
 
 # Additional prompts:
-# Create a function to return one random item from a list of dictionaries 
-# containing 15 common drink items sold in a coffee shop including the id, name, calories, price, and type of 'drink'. 
+# Create a function to return one random item from a list of dictionaries
+# containing 15 common drink items sold in a coffee shop including the id, name, calories, price, and type of 'drink'.
 # Capitalize the first letter of each product name. Start product id at 1.
 
-# Create a function to return one random item from a list of dictionaries 
-# containing 10 common food items sold in a coffee shop including the id, name, calories, price, and type of 'food'. 
+# Create a function to return one random item from a list of dictionaries
+# containing 10 common food items sold in a coffee shop including the id, name, calories, price, and type of 'food'.
 # Capitalize the first letter of each product name. Start product id at 16.
 
 import csv
@@ -82,7 +88,7 @@ def random_payment_type():
 
 # Generate the sales data
 sales = []
-for i in range(100):
+for i in range(200):
     item = random.choice(items)
     sales.append(
         {
@@ -100,8 +106,8 @@ for i in range(100):
         }
     )
 
-# Write the sales data to a CSV file
-with open("output/coffee_shop_sales.csv", "w", newline="") as csvfile:
+
+with open("output/coffee_shop_sales_chatgpt.csv", "w", newline="") as csvfile:
     fieldnames = [
         "id",
         "date",

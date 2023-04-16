@@ -5,7 +5,7 @@
 # Command-line argument(s): rec_count (number of records to generate as an integer)
 
 # Write an application that create a random list of user data.
-# Include first name, last name, dob, marital status, and ethinicity.
+# Include first name, last name, dob, gender, religion, and race
 # Write the data to a csv file.
 
 import random
@@ -24,7 +24,7 @@ def main():
     write_data(rec_count)
 
 
-# write a function that generates common feminine first names
+# write a function that generates common feminine first names in the United States
 # return random first name
 def get_first_name_feminine():
     first_name_feminine = [
@@ -89,7 +89,7 @@ def get_first_name_feminine():
     return random.choice(first_name_feminine)
 
 
-# write a function that generates common masculine first names
+# write a function that generates common masculine first names in the United States
 # return random first name
 def get_first_name_masculine():
     first_names_masculine = [
@@ -163,9 +163,20 @@ def get_first_name_masculine():
     return random.choice(first_names_masculine)
 
 
-# write a function that generates common last names
+# write a function that returns a feminine or masculine first name
+# return random first name
+# accept a random value between 0 and 1
+# 32% chance of being feminine, 68% chance of being masculine
+def get_first_name(rnd_value):
+    if rnd_value < 0.32:
+        return get_first_name_feminine()
+    else:
+        return get_first_name_masculine()
+
+
+# write a function that generates common last names in the United States
 # return random last name
-def get_last_names():
+def get_last_name():
     last_names = [
         "Smith",
         "Johnson",
@@ -272,28 +283,93 @@ def get_last_names():
 
 # write a function that returns a martial status
 # return random martial status
-# 50% chance of being single, 33% chance of being married, 17% chance of being unknown
-def get_martial_status():
-    martial_status = ["Single", "Single", "Single", "Married", "Married", "Unknown"]
-
-    return random.choice(martial_status)
-
-
-# write a function that returns a person's ethinicity
-# return random ethinicity
-# 50% chance of being white, 12.5% chance of being black,
-# 12.5% chance of being hispanic, 12.5% chance of being asian, 12.5% chance of being other
-def get_ethinicity():
-    ethinicity = ["White", "White", "White", "Black", "Hispanic", "Asian", "Other"]
-
-    return random.choice(ethinicity)
+# accept a random value between 0 and 1
+# 50% chance of being married,
+# 33% chance of being single,
+# 17% chance of being unknown
+def get_martial_status(rnd_value):
+    if rnd_value < 0.50:
+        return "Married"
+    elif rnd_value < 0.83:
+        return "Single"
+    else:
+        return "Unknown"
 
 
-# write a function that generates a normal distribution
-# with a mean of 40 and a standard deviation of 10
-# return random age
-def get_age():
-    return int(random.normalvariate(40, 10))
+# write a function that returns a person's rache
+# return random race
+# accept a random value between 0 and 1
+# 58% chance of being white,
+# 19% chance of being hispanic,
+# 12% chance of being black,
+# 6% chance of being asian,
+# 4% chance of being multiracial
+def get_race(rnd_value):
+    if rnd_value < .58:
+        return "White"
+    elif rnd_value < .77:
+        return "Hispanic"
+    elif rnd_value < .89:
+        return "Black"
+    elif rnd_value < .95:
+        return "Asian"
+    else:
+        return "Multiracial"
+
+
+# write a function that returns a person's regilion
+# return random regilion
+# accept a random value between 0 and 1
+# 70% chance of being christian,
+# 20% chance of being agnostic,
+# 3% chance of being atheist,
+# 2% chance of being jewish,
+# 2% chance of being other,
+# 1% chance of being muslim,
+# 1% chance of being hindu,
+# 1% chance of being buddhist
+def get_regilion(rnd_value):
+    if rnd_value < 0.7:
+        return "Christian"
+    elif rnd_value < 0.9:
+        return "Agnostic"
+    elif rnd_value < 0.93:
+        return "Atheist"
+    elif rnd_value < 0.95:
+        return "Jewish"
+    elif rnd_value < 0.97:
+        return "Other"
+    elif rnd_value < 0.98:
+        return "Muslim"
+    elif rnd_value < 0.99:
+        return "Hindu"
+    else:
+        return "Buddhist"
+
+
+# write a function that returns a person's gender
+# return a random gender
+# accept a random value between 0 and 1
+# 40% chace of being female,
+# 53% chance of being male,
+# 6% chance of being other,
+# 1% chance of being transgender
+def get_gender(rnd_value):
+    if rnd_value < 0.53:
+        return "Male"
+    elif rnd_value < 0.93:
+        return "Feamle"
+    elif rnd_value < 0.99:
+        return "Other"
+    else:
+        return "Transgener"
+
+
+# # write a function that generates a normal distribution
+# # with a mean of 40 and a standard deviation of 10
+# # return random age
+# def get_age():
+#     return int(random.normalvariate(40, 10))
 
 
 # write a function that generates a random date of birth
@@ -305,17 +381,6 @@ def get_dob():
     dob = date(int(year_of_birth), 1, 1) + timedelta(day_of_year - 1)
     dob = dob.strftime("%Y-%m-%d")
     return dob
-
-# write a function that returns a gender based on a random number
-# odds of being female are 40%, male are 53%, transgender are 1%, and other are 6%
-def get_gender(gender):
-    if gender == 100:
-        return "Transgender"
-    elif gender >= 94:
-        return "Other"
-    elif gender <= 40:
-        return "Female"
-    return "Male"
 
 
 # create a function to write the users records to a csv file called users.csv
@@ -339,21 +404,20 @@ def write_data(rec_count):
                 "dob",
                 "gender",
                 "martital_status",
-                "ethinicity",
+                "race",
             ]
         )
 
         for i in range(rec_count):
+            rnd_value = random.random()
+
             user_id += 1
-            gender = int(random.randint(1, 100))
-            first_name = (
-                get_first_name_feminine() if gender <= 32 else get_first_name_masculine()
-            )
-            last_name = get_last_names()
+            first_name = get_first_name(rnd_value)
+            last_name = get_last_name()
             dob = get_dob()
-            gender = get_gender(gender)
-            martial_status = get_martial_status()
-            ethinicity = get_ethinicity()
+            gender = get_gender(rnd_value)
+            martial_status = get_martial_status(rnd_value)
+            race = get_race(rnd_value)
 
             csv_writer.writerow(
                 [
@@ -363,7 +427,7 @@ def write_data(rec_count):
                     dob,
                     gender,
                     martial_status,
-                    ethinicity,
+                    race,
                 ]
             )
 
