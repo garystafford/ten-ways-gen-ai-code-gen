@@ -174,6 +174,8 @@ def get_street_type():
     return random.choice(street_types)
 
 
+# write a function that adds a population_pcnt and running_total columns to the cities list
+# returns a sorted list of cities by population
 def prepare_cities(cities):
     total_population = 0  # 51,035,885
     for city in cities:
@@ -258,6 +260,7 @@ def get_cities():
     ]
 
     return cities
+
 
 # write a function to return a random city
 # accept a random value between 0 and 1 as an input parameter
