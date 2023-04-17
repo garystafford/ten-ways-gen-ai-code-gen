@@ -135,6 +135,7 @@ def get_sales_record():
 
 # Write a function to write the sales records to a CSV file called 'coffee_shop_sales_data.csv'.
 # Use an input parameter to specify the number of records to write.
+# Call the get_sales_record function once for each record to write.
 # The CSV file must have a header row and be comma delimited.
 # All string values must be enclosed in double quotes.
 def write_data(rec_count):
