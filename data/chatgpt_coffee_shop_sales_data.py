@@ -1,13 +1,13 @@
 # Purpose: Generate coffee shop sales data
 # Author: OpenAI ChatGPT
 # Date: 2023-04-14
-# Usage: python3 chat_gpt_raw_code.py
+# Usage: python3 chatgpt_coffee_shop_sales_data.py
 # Command-line argument(s): None
 
 # Original OpenAI ChatGPT prompt:
 # Create a Python3 program to generate 100 sales for 5 common items sold in a coffee shop.
-# The data should be written to a CSV file. The file should include a header row.
-# Each record should include the following fields:
+# The data should be written to a CSV file named 'coffee_shop_sales_chatgpt_data.csv'.
+# The file should contain a header row with the following fields:
 #   - id (incrementing integer starting at 1)
 #   - date (random date between 1/1/2022 and 12/31/2022)
 #   - time (random time between 6:00am and 9:00pm in 1-minute increments)
@@ -107,7 +107,7 @@ for i in range(200):
     )
 
 
-with open("output/coffee_shop_sales_chatgpt.csv", "w", newline="") as csvfile:
+with open("output/coffee_shop_sales_data_chatgpt.csv", "w", newline="") as csvfile:
     fieldnames = [
         "id",
         "date",

@@ -5,8 +5,9 @@
 # Command-line argument(s): rec_count (number of records to generate as an integer)
 
 # Write an application that create a random list of united states addresses.
+# The application should accept a command line argument that specifies the number of records to generate.
 # Include address, city, state, zip code, country, and property type.
-# Write the data to a csv file.
+# Write the data to a csv file named 'address_data.csv'.
 # The application should contain the following functions:
 #   - main() function that calls the other functions
 #   - function that returns a list of common street names in the United States
@@ -199,7 +200,7 @@ def get_property_type(rnd_value):
 # All string values must be enclosed in double quotes.
 def write_data(rec_count):
     address_id = 0
-    with open("output/addresses.csv", "w", newline="") as csv_file:
+    with open("output/address_data.csv", "w", newline="") as csv_file:
         csv_writer = csv.writer(
             csv_file, delimiter=",", quotechar='"', quoting=csv.QUOTE_NONNUMERIC
         )

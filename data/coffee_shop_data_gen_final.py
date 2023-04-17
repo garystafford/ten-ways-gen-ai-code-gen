@@ -25,8 +25,7 @@ def main():
 
 
 def get_product():
-    """Return one random item from list of dictionaries
-    containing 25 common items sold in a coffee shop
+    """Return one random item from list of dictionaries containing 25 common items sold in a coffee shop
 
     Returns:
         dict: A dictionary containing the product id, product name, calories, price, and type (food or drink)
@@ -107,11 +106,12 @@ def get_sales_record():
     return sales_record
 
 
-def write_data(rec_count, file_name="output/coffee_shop_sales.csv"):
-    """Write the sales records to a file called coffee_shop_sales.csv
+def write_data(rec_count, file_name="output/coffee_shop_sales_data.csv"):
+    """Write the sales records to a CSV file
 
     Args:
         rec_count (int): The number of records to write
+        file_name (str, optional): The name of the file to write to. Defaults to "output/coffee_shop_sales_data.csv".
 
         Returns:
             None

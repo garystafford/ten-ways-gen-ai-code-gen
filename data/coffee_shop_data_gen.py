@@ -6,7 +6,7 @@
 
 # Write a program that creates synthetic sales data for a coffee shop.
 # The program should accept a command line argument that specifies the number of records to generate.
-# The program should write the sales data to a file called 'coffee_shop_sales.csv'.
+# The program should write the sales data to a file called 'coffee_shop_sales_data.csv'.
 # The program should contain the following functions:
 #   - main() function that calls the other functions
 #   - function that returns one random product from a list of dictionaries
@@ -133,18 +133,18 @@ def get_sales_record():
     return sales_record
 
 
-# Write a function to write the sales records to a CSV file called 'coffee_shop_sales.csv'.
+# Write a function to write the sales records to a CSV file called 'coffee_shop_sales_data.csv'.
 # Use an input parameter to specify the number of records to write.
 # The CSV file must have a header row and be comma delimited.
 # All string values must be enclosed in double quotes.
 def write_data(rec_count):
     # open the file for writing
-    with open("output/coffee_shop_sales.csv", "w", newline="") as csv_file:
+    with open("output/coffee_shop_sales_data.csv", "w", newline="") as csv_file:
         # create a csv writer object
         csv_writer = csv.writer(csv_file,
                                 delimiter=",",
                                 quotechar='"',
-                                quoting=csv.QUOTE_MINIMAL)
+                                quoting=csv.QUOTE_NONNUMERIC)
 
         # write the header row
         # id,date,time,product_id,product,calories,price,type,quantity,amount,payment_type

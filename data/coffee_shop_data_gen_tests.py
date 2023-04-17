@@ -61,7 +61,7 @@ class TestCoffeeShop(unittest.TestCase):
 
     # write a unit test for the write_sales_records function
     def test_write_sales_records(self):
-        file_name = "output/coffee_shop_sales_test.csv"
+        file_name = "output/coffee_shop_sales_data_test.csv"
         write_data(10, file_name)
         
         with open(file_name, "r") as csv_file:

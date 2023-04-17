@@ -5,8 +5,17 @@
 # Command-line argument(s): rec_count (number of records to generate as an integer)
 
 # Write an application that create a random list of user data.
-# Include first name, last name, dob, gender, religion, and race
-# Write the data to a csv file.
+# The application should accept a command line argument that specifies the number of records to generate.
+# The application should write the user data to a file called 'user_data.csv'.
+# The application should contain the following functions:
+#   - main() function that calls the other functions
+#   - function that returns a random first name
+#   - function that returns a random last name
+#   - function that returns a random date of birth
+#   - function that returns a random gender
+#   - function that returns a random regilious affiliation
+#   - function that returns a random race
+
 
 import random
 import argparse
@@ -218,7 +227,7 @@ def get_dob():
 def write_data(rec_count):
     user_id = 0
 
-    with open("output/users.csv", "w", newline="") as csv_file:
+    with open("output/user_data.csv", "w", newline="") as csv_file:
         csv_writer = csv.writer(
             csv_file, delimiter=",", quotechar='"', quoting=csv.QUOTE_NONNUMERIC
         )
