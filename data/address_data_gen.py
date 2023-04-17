@@ -30,173 +30,66 @@ def main():
     write_data(rec_count)
 
 
-# write a function that creates a list of unique street names in the united states
-# returns a random street name
+# Write a function that creates a list of common street names
+# in the United States, in alphabetical order.
+# Each one should be unique.
+# Return a random street name.
 def get_street_name():
     street_names = [
-        "Ash",
-        "Bend",
-        "Bluff",
-        "Branch",
-        "Bridge",
-        "Broadway",
-        "Brook",
-        "Burg",
-        "Bury",
-        "Canyon",
-        "Cape",
-        "Cedar",
-        "Cove",
-        "Creek",
-        "Crest",
-        "Crossing",
-        "Dale",
-        "Dam",
-        "Divide",
-        "Downs",
-        "Elm",
-        "Estates",
-        "Falls",
-        "Fifth",
-        "First",
-        "Fork",
-        "Fourth",
-        "Glen",
-        "Green",
-        "Grove",
-        "Harbor",
-        "Heights",
-        "Hickory",
-        "Hill",
-        "Hollow",
-        "Island",
-        "Isle",
-        "Knoll",
-        "Lake",
-        "Landing",
-        "Lawn",
-        "Main",
-        "Manor",
-        "Maple",
-        "Meadow",
-        "Meadows",
-        "Mill",
-        "Mills",
-        "Mission",
-        "Mount",
-        "Mountain",
-        "Oak",
-        "Oaks",
-        "Orchard",
-        "Park",
-        "Parkway",
-        "Pass",
-        "Path",
-        "Pike",
-        "Pine",
-        "Place",
-        "Plain",
-        "Plains",
-        "Port",
-        "Prairie",
-        "Ridge",
-        "River",
-        "Road",
-        "Rock",
-        "Rocks",
-        "Second",
-        "Seventh",
-        "Shoals",
-        "Shore",
-        "Shores",
-        "Sixth",
-        "Skyway",
-        "Spring",
-        "Springs",
-        "Spur",
-        "Station",
-        "Summit",
-        "Sunset",
-        "Terrace",
-        "Third",
-        "Trace",
-        "Track",
-        "Trail",
-        "Tunnel",
-        "Turnpike",
-        "Vale",
-        "Valley",
-        "View",
-        "Village",
-        "Ville",
-        "Vista",
-        "Walk",
-        "Way",
-        "Well",
-        "Wells",
-        "Wood",
-        "Woods",
-        "Worth",
+        "Ash", "Bend", "Bluff", "Branch", "Bridge", "Broadway", "Brook", "Burg",
+        "Bury", "Canyon", "Cape", "Cedar", "Cove", "Creek", "Crest", "Crossing",
+        "Dale", "Dam", "Divide", "Downs", "Elm", "Estates", "Falls", "Fifth",
+        "First", "Fork", "Fourth", "Glen", "Green", "Grove", "Harbor", "Heights",
+        "Hickory", "Hill", "Hollow", "Island", "Isle", "Knoll", "Lake", "Landing",
+        "Lawn", "Main", "Manor", "Maple", "Meadow", "Meadows", "Mill", "Mills",
+        "Mission", "Mount", "Mountain", "Oak", "Oaks", "Orchard", "Park", "Parkway",
+        "Pass", "Path", "Pike", "Pine", "Place", "Plain", "Plains", "Port", "Prairie",
+        "Ridge", "River", "Road", "Rock", "Rocks", "Second", "Seventh", "Shoals",
+        "Shore", "Shores", "Sixth", "Skyway", "Spring", "Springs", "Spur", "Station",
+        "Summit", "Sunset", "Terrace", "Third", "Trace", "Track", "Trail", "Tunnel",
+        "Turnpike", "Vale", "Valley", "View", "Village", "Ville", "Vista", "Walk",
+        "Way", "Well", "Wells", "Wood", "Woods", "Worth"
     ]
 
     return random.choice(street_names)
 
 
-# write a function that creates a list of unique street types in the united states
-# returns a random street type
+# Write a function that creates a list of common street types 
+# in the United States, in alphabetical order.
+# Each one should be unique.
+# Return a random street type.
 def get_street_type():
     street_types = [
-        "Alley",
-        "Avenue",
-        "Bend",
-        "Bluff",
-        "Boulevard",
-        "Branch",
-        "Bridge",
-        "Brook",
-        "Burg",
-        "Circle",
-        "Commons",
-        "Court",
-        "Drive",
-        "Highway",
-        "Lane",
-        "Parkway",
-        "Place",
-        "Road",
-        "Square",
-        "Street",
-        "Terrace",
-        "Trail",
-        "Way",
+        "Alley", "Avenue", "Bend", "Bluff", "Boulevard", "Branch", "Bridge", "Brook", 
+        "Burg", "Circle", "Commons", "Court", "Drive", "Highway", "Lane", "Parkway", 
+        "Place", "Road", "Square", "Street", "Terrace", "Trail", "Way"
     ]
 
     return random.choice(street_types)
 
 
-# write a function that adds a population_pcnt and running_total columns to the cities list
-# returns a sorted list of cities by population
+# Write a function that calculates the total population of the list of cities.
+# Add a 'pcnt_of_total_population' and 'pcnt_running_total' columns to list.
+# Returns a sorted list of cities by population.
 def prepare_cities(cities):
     total_population = 0  # 51,035,885
     for city in cities:
         total_population += city["population"]
 
     for city in cities:
-        city["population_pcnt"] = city["population"] / total_population
+        city["pcnt_of_total_population"] = city["population"] / total_population
 
     global cities_final
     cities_final = sorted(cities, key=lambda d: d["population"], reverse=True)
 
     running_total = 1
     for city in cities_final:
-        running_total -= city["population_pcnt"]
-        city["running_total"] = running_total
+        running_total -= city["pcnt_of_total_population"]
+        city["pcnt_running_total"] = running_total
 
 
-# write a function that creates a list of dictionaries
-# of the largest cities in the united states
-# include the city, state abbreviation, zip code, and population
-# return all cities
+# Write a function to returns the 50 largest cities in the United States.
+# Include the city, state abbreviation, zip code, and population.
 def get_cities():
     cities = [
         {"city": "Albuquerque", "state": "NM", "zip": "87102", "population": 559277},
@@ -266,20 +159,15 @@ def get_cities():
 # accept a random value between 0 and 1 as an input parameter
 def get_city(rnd_value):
     for city in cities_final:
-        if rnd_value >= city["running_total"]:
+        if rnd_value >= city["pcnt_running_total"]:
             return city
 
 
-# write a function to return a random type of real estate
-# the function must return one of the following values:
-# 63% single-family,
-# 26% multi-family,
-# 4% condo,
-# 3% townhouse,
-# 2% mobile home,
-# 1% farm
-# 1% other
-# accept a random value between 0 and 1 as an input parameter
+# Write a function to return a random property type.
+# Accept a random value between 0 and 1 as an input parameter.
+# The function must return one of the following values based on the %:
+# 63% Single-family, 26% Multi-family, 4% Condo,
+# 3% Townhouse, 2% Mobile home, 1% Farm, 1% Other.
 def get_property_type(rnd_value):
     if rnd_value < 0.63:
         return "Single-family"
@@ -297,11 +185,10 @@ def get_property_type(rnd_value):
         return "Other"
 
 
-# create a function to write the address records to a csv file called addresses.csv
-# use an input parameter to specify the number of records to write
-# the csv file must have a header row
-# the csv file must be comma delimited
-# string values must be enclosed in double quotes
+# Create a function to write the address records to a csv file called 'addresses.csv'.
+# Use an input parameter to specify the number of records to write.
+# The csv file must have a header row and be comma delimited.
+# All string values must be enclosed in double quotes.
 def write_data(rec_count):
     address_id = 0
     with open("output/addresses.csv", "w", newline="") as csv_file:

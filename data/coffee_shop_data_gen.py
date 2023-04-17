@@ -4,13 +4,13 @@
 # Usage: python3 coffee_shop_data_gen.py 100
 # Command-line argument(s): rec_count (number of records to generate as an integer)
 
-# write a program that creates synthetic sales data for a coffee shop
-# the program should accept a command line argument that specifies the number of records to generate
-# the program should write the sales data to a file called coffee_shop_sales.csv
-# the program should contain a main function that calls the other functions
-# the program should contain a function that returns one random product from a list of dictionaries
-# the program should contain a function that returns a dictionary containing one sales record
-# the program should contain a function that writes the sales records to a file
+# Write a program that creates synthetic sales data for a coffee shop.
+# The program should accept a command line argument that specifies the number of records to generate.
+# The program should write the sales data to a file called 'coffee_shop_sales.csv'.
+# The program should contain a main function that calls the other functions.
+# The program should contain a function that returns one random product from a list of dictionaries.
+# The program should contain a function that returns a dictionary containing one sales record.
+# The program should contain a function that writes the sales records to a file.
 
 import csv
 import random
@@ -36,11 +36,11 @@ def main():
     write_data(num_recs)
 
 
-# write a function to create list of dictionaries
-# the list of dictionaries should contain 15 Drink items and 10 Food items sold in a coffee shop
-# include the product id, product name, calories, price, and type (Food or Drink)
-# capilize the first letter of each product name
-# return a random item from the list of dictionaries
+# Write a function to create list of dictionaries.
+# The list of dictionaries should contain 15 drink items and 10 food items sold in a coffee shop.
+# Include the product id, product name, calories, price, and type (food or drink).
+# Capilize the first letter of each product name.
+# Return a random item from the list of dictionaries.
 def get_product():
     products = [
         {"id": 1, "product": "Latte", "calories": 120, "price": 3.50, "type": "Drink"},
@@ -74,15 +74,15 @@ def get_product():
     return random.choice(products)
 
 
-# write a function to return a random sales record
-# the record should be a dictionary with the following fields:
+# Write a function to return a random sales record.
+# The record should be a dictionary with the following fields:
 #   - id (an incrementing integer starting at 1)
 #   - date (a random date between 1/1/2022 and 12/31/2022)
 #   - time (a random time between 6:00am and 9:00pm in 1 minute increments)
 #   - product_id, product, calories, price, and type (from the get_product function)
 #   - quantity (a random integer between 1 and 3)
 #   - amount (price * quantity)
-#   - payment type: Cash, Credit, Debit, Gift card, Apple Pay, Google Pay, Venmo 
+#   - payment type (Cash, Credit, Debit, Gift Card, Apple Pay, Google Pay, or Venmo)
 def get_sales_record():
     # get a random product
     product = get_product()
@@ -132,12 +132,10 @@ def get_sales_record():
     return sales_record
 
 
-# write a function to write the sales records
-# to a csv file called coffee_shop_sales.csv
-# use an input parameter to specify the number of records to write
-# the csv file must have a header row
-# the csv file must be comma delimited
-# string values must be enclosed in double quotes
+# Write a function to write the sales records to a CSV file called 'coffee_shop_sales.csv'.
+# Use an input parameter to specify the number of records to write.
+# The CSV file must have a header row and be comma delimited.
+# All string values must be enclosed in double quotes.
 def write_data(rec_count):
     # open the file for writing
     with open("output/coffee_shop_sales.csv", "w", newline="") as csv_file:

@@ -24,266 +24,105 @@ def main():
     write_data(rec_count)
 
 
-# write a function that generates common feminine first names in the United States
-# return random first name
+# Write a function that generates common feminine first names in the United States.
+# Each name should be unique.
+# Return random first name.
 def get_first_name_feminine():
     first_name_feminine = [
-        "Mary",
-        "Patricia",
-        "Linda",
-        "Barbara",
-        "Elizabeth",
-        "Jennifer",
-        "Maria",
-        "Susan",
-        "Margaret",
-        "Dorothy",
-        "Lisa",
-        "Nancy",
-        "Karen",
-        "Betty",
-        "Helen",
-        "Sandra",
-        "Donna",
-        "Carol",
-        "Ruth",
-        "Sharon",
-        "Michelle",
-        "Laura",
-        "Sarah",
-        "Kimberly",
-        "Deborah",
-        "Jessica",
-        "Shirley",
-        "Cynthia",
-        "Angela",
-        "Melissa",
-        "Brenda",
-        "Amy",
-        "Anna",
-        "Rebecca",
-        "Virginia",
-        "Kathleen",
-        "Pamela",
-        "Martha",
-        "Debra",
-        "Amanda",
-        "Stephanie",
-        "Carolyn",
-        "Christine",
-        "Marie",
-        "Janet",
-        "Catherine",
-        "Frances",
-        "Ann",
-        "Joyce",
-        "Diane",
-        "Alice",
-        "Julie",
-        "Heather",
-        "Teresa",
-        "Doris",
-        "Gloria",
+        "Alice", "Amanda", "Amy", "Angela", "Ann", "Anna", "Barbara", "Betty",
+        "Brenda", "Carol", "Carolyn", "Catherine", "Christine", "Cynthia", "Deborah", "Debra",
+        "Diane", "Donna", "Doris", "Dorothy", "Elizabeth", "Frances", "Gloria", "Heather",
+        "Helen", "Janet", "Jennifer", "Jessica", "Joyce", "Julie", "Karen", "Kathleen", "Kimberly",
+        "Laura", "Linda", "Lisa", "Margaret", "Maria", "Marie", "Martha", "Mary", "Melissa",
+        "Michelle", "Nancy", "Pamela", "Patricia", "Rebecca", "Ruth", "Sandra", "Sarah", "Sharon",
+        "Shirley", "Stephanie", "Susan", "Teresa", "Virginia",
     ]
 
     return random.choice(first_name_feminine)
 
 
-# write a function that generates common masculine first names in the United States
-# return random first name
+# Write a function that generates common masculine first names in the United States.
+# Each name should be unique.
+# Return random first name.
 def get_first_name_masculine():
     first_names_masculine = [
-        "James",
-        "John",
-        "Robert",
-        "Michael",
-        "William",
-        "David",
-        "Richard",
-        "Charles",
-        "Joseph",
-        "Thomas",
-        "Christopher",
-        "Daniel",
-        "Paul",
-        "Mark",
-        "Donald",
-        "George",
-        "Kenneth",
-        "Steven",
-        "Edward",
-        "Brian",
-        "Ronald",
-        "Anthony",
-        "Kevin",
-        "Jason",
-        "Matthew",
-        "Gary",
-        "Timothy",
-        "Jose",
-        "Larry",
-        "Jeffrey",
-        "Frank",
-        "Scott",
-        "Eric",
-        "Stephen",
-        "Andrew",
-        "Raymond",
-        "Gregory",
-        "Joshua",
-        "Jerry",
-        "Dennis",
-        "Walter",
-        "Patrick",
-        "Peter",
-        "Harold",
-        "Douglas",
-        "Henry",
-        "Carl",
-        "Arthur",
-        "Ryan",
-        "Roger",
-        "Joe",
-        "Juan",
-        "Jack",
-        "Albert",
-        "Jonathan",
-        "Justin",
-        "Terry",
-        "Gerald",
-        "Keith",
-        "Samuel",
-        "Willie",
-        "Ralph",
-        "Lawrence",
-        "Nicholas",
-        "Roy",
+        "Adams", "Alexander", "Allen", "Anderson", "Bailey", "Baker", "Barnes", "Bell",
+        "Bennett", "Brooks", "Brown", "Bryant", "Butler", "Campbell", "Carter", "Clark",
+        "Coleman", "Collins", "Cook", "Cooper", "Cox", "Davis", "Edwards", "Evans",
+        "Flores", "Foster", "Garcia", "Gonzales", "Gonzalez", "Gray", "Green", "Griffin",
+        "Hall", "Harris", "Henderson", "Hernandez", "Hill", "Howard", "Hughes", "Jackson",
+        "James", "Jenkins", "Johnson", "Jones", "Kelly", "King", "Lee", "Lewis", "Long",
+        "Lopez", "Martin", "Martinez", "Miller", "Mitchell", "Moore", "Morgan", "Morris",
+        "Murphy", "Nelson", "Parker", "Patterson", "Perez", "Perry", "Peterson", "Phillips",
+        "Powell", "Price", "Ramirez", "Reed", "Richardson", "Rivera", "Roberts", "Robinson",
+        "Rodriguez", "Rogers", "Ross", "Russell", "Sanchez", "Sanders", "Scott", "Simmons",
+        "Smith", "Stewart", "Taylor", "Thomas", "Thompson", "Torres", "Turner", "Walker",
+        "Ward", "Washington", "Watson", "White", "Williams", "Wilson", "Wood", "Wright", "Young"
     ]
 
     return random.choice(first_names_masculine)
 
 
-# write a function that returns a feminine or masculine first name
-# return random first name
-# accept a random value between 0 and 1 as an input parameter
-# 32% chance of being feminine, 68% chance of being masculine
-def get_first_name(rnd_value):
-    if rnd_value < 0.32:
-        return get_first_name_feminine()
+# Write a function that returns a person's gender.
+# Return a random gender.
+# Accept a random value between 0 and 1 as an input parameter.
+# The function must return one of the following values based on the %:
+# 53% chance of being male,
+# 40% chace of being female,
+# 6% chance of being other,
+# 1% chance of being transgender
+def get_gender(rnd_value):
+    if rnd_value < 0.53:
+        return "Male"
+    elif rnd_value < 0.93:
+        return "Feamle"
+    elif rnd_value < 0.99:
+        return "Other"
     else:
+        return "Transgener"
+
+# Write a function that returns a feminine or masculine first name.
+# Return random first name.
+# Accept a random value between 0 and 1 as an input parameter.
+# The function must return one of the following values based on the %:
+# 53% chance of being feminine, 40% chance of being masculine
+def get_first_name(rnd_value):
+    if rnd_value < 0.53:
         return get_first_name_masculine()
+    elif rnd_value < 0.93:
+        return get_first_name_feminine()
+    elif rnd_value < 0.97:
+        return get_first_name_masculine()
+    else:
+        return get_first_name_feminine()
 
 
-# write a function that generates common last names in the United States
-# return random last name
+# Write a function that generates common last names in the United States.
+# Each name should be unique.
+# Return random last name.
 def get_last_name():
     last_names = [
-        "Smith",
-        "Johnson",
-        "Williams",
-        "Jones",
-        "Brown",
-        "Davis",
-        "Miller",
-        "Wilson",
-        "Moore",
-        "Taylor",
-        "Anderson",
-        "Thomas",
-        "Jackson",
-        "White",
-        "Harris",
-        "Martin",
-        "Thompson",
-        "Garcia",
-        "Martinez",
-        "Robinson",
-        "Clark",
-        "Rodriguez",
-        "Lewis",
-        "Lee",
-        "Walker",
-        "Hall",
-        "Allen",
-        "Young",
-        "Hernandez",
-        "King",
-        "Wright",
-        "Lopez",
-        "Hill",
-        "Scott",
-        "Green",
-        "Adams",
-        "Baker",
-        "Gonzalez",
-        "Nelson",
-        "Carter",
-        "Mitchell",
-        "Perez",
-        "Roberts",
-        "Turner",
-        "Phillips",
-        "Campbell",
-        "Parker",
-        "Evans",
-        "Edwards",
-        "Collins",
-        "Stewart",
-        "Sanchez",
-        "Morris",
-        "Rogers",
-        "Reed",
-        "Cook",
-        "Morgan",
-        "Bell",
-        "Murphy",
-        "Bailey",
-        "Rivera",
-        "Cooper",
-        "Richardson",
-        "Cox",
-        "Howard",
-        "Ward",
-        "Torres",
-        "Peterson",
-        "Gray",
-        "Ramirez",
-        "James",
-        "Watson",
-        "Brooks",
-        "Kelly",
-        "Sanders",
-        "Price",
-        "Bennett",
-        "Wood",
-        "Barnes",
-        "Ross",
-        "Henderson",
-        "Coleman",
-        "Jenkins",
-        "Perry",
-        "Powell",
-        "Long",
-        "Patterson",
-        "Hughes",
-        "Flores",
-        "Washington",
-        "Butler",
-        "Simmons",
-        "Foster",
-        "Gonzales",
-        "Bryant",
-        "Alexander",
-        "Russell",
-        "Griffin",
+        "Adams", "Alexander", "Allen", "Anderson", "Bailey", "Baker", "Barnes", "Bell",
+        "Bennett", "Brooks", "Brown", "Bryant", "Butler", "Campbell", "Carter", "Clark",
+        "Coleman", "Collins", "Cook", "Cooper", "Cox", "Davis", "Edwards", "Evans", "Flores",
+        "Foster", "Garcia", "Gonzales", "Gonzalez", "Gray", "Green", "Griffin", "Hall",
+        "Harris", "Henderson", "Hernandez", "Hill", "Howard", "Hughes", "Jackson", "James",
+        "Jenkins", "Johnson", "Jones", "Kelly", "King", "Lee", "Lewis", "Long", "Lopez",
+        "Martin", "Martinez", "Miller", "Mitchell", "Moore", "Morgan", "Morris", "Murphy",
+        "Nelson", "Parker", "Patterson", "Perez", "Perry", "Peterson", "Phillips", "Powell",
+        "Price", "Ramirez", "Reed", "Richardson", "Rivera", "Roberts", "Robinson", "Rodriguez",
+        "Rogers", "Ross", "Russell", "Sanchez", "Sanders", "Scott", "Simmons", "Smith", "Stewart",
+        "Taylor", "Thomas", "Thompson", "Torres", "Turner", "Walker", "Ward", "Washington", "Watson",
+        "White", "Williams", "Wilson", "Wood", "Wright", "Young",
     ]
 
     return random.choice(last_names)
 
 
-# write a function that returns a martial status
-# return random martial status
-# accept a random value between 0 and 1 as an input parameter
+# Write a function that returns a martial status.
+# Return random martial status.
+# Accept a random value between 0 and 1 as an input parameter.
+# The function must return one of the following values based on the %:
 # 50% chance of being married,
 # 33% chance of being single,
 # 17% chance of being unknown
@@ -296,9 +135,10 @@ def get_martial_status(rnd_value):
         return "Unknown"
 
 
-# write a function that returns a person's rache
-# return random race
-# accept a random value between 0 and 1 as an input parameter
+# Write a function that returns a person's race.
+# Return random race.
+# Accept a random value between 0 and 1 as an input parameter.
+# The function must return one of the following values based on the %:
 # 58% chance of being white,
 # 19% chance of being hispanic,
 # 12% chance of being black,
@@ -317,9 +157,10 @@ def get_race(rnd_value):
         return "Multiracial"
 
 
-# write a function that returns a person's regilion
-# return random regilion
-# accept a random value between 0 and 1 as an input parameter
+# Write a function that returns a person's regilion.
+# Return random regilion.
+# Accept a random value between 0 and 1 as an input parameter.
+# The function must return one of the following values based on the %:
 # 70% chance of being christian,
 # 20% chance of being agnostic,
 # 3% chance of being atheist,
@@ -347,11 +188,12 @@ def get_regilion(rnd_value):
         return "Buddhist"
 
 
-# write a function that returns a person's gender
-# return a random gender
-# accept a random value between 0 and 1 as an input parameter
-# 40% chace of being female,
+# Write a function that returns a person's gender.
+# Return a random gender.
+# Accept a random value between 0 and 1 as an input parameter.
+# The function must return one of the following values based on the %:
 # 53% chance of being male,
+# 40% chace of being female,
 # 6% chance of being other,
 # 1% chance of being transgender
 def get_gender(rnd_value):
@@ -365,17 +207,17 @@ def get_gender(rnd_value):
         return "Transgener"
 
 
-# write a function that generates a normal distribution of ages
-# using normalvariate() from the random module
-# with a mean of 40 and a standard deviation of 10
-# return random age as an integer
+# Write a function that generates a normal distribution of ages.
+# Using normalvariate() from the random module
+# with a mean of 40 and a standard deviation of 10.
+# Return random age as an integer.
 def get_age():
     return int(random.normalvariate(40, 10))
 
 
-# write a function that generates a random date of birth
-# return random date of birth
-# with a mean year of 1975 and a standard deviation of 10
+# Write a function that generates a random date of birth.
+# Return random date of birth as a string in the format YYYY-MM-DD
+# with a mean year of 1975 and a standard deviation of 10.
 def get_dob():
     day_of_year = random.randint(1, 365)
     year_of_birth = int(random.normalvariate(1975, 10))
@@ -384,11 +226,10 @@ def get_dob():
     return dob
 
 
-# create a function to write the users records to a csv file called users.csv
-# use an input parameter to specify the number of records to write
-# the csv file must have a header row
-# the csv file must be comma delimited
-# string values must be enclosed in double quotes
+# Create a function to write the users records to a csv file called 'users.csv'.
+# Use an input parameter to specify the number of records to write.
+# The csv file must have a header row and be comma delimited.
+# String values must be enclosed in double quotes.
 def write_data(rec_count):
     user_id = 0
 
@@ -406,19 +247,21 @@ def write_data(rec_count):
                 "gender",
                 "martital_status",
                 "race",
+                "religion"
             ]
         )
 
         for i in range(rec_count):
-            rnd_value = random.random()
+            rnd_gender = random.random()
 
             user_id += 1
-            first_name = get_first_name(rnd_value)
+            first_name = get_first_name(rnd_gender)
             last_name = get_last_name()
             dob = get_dob()
-            gender = get_gender(rnd_value)
-            martial_status = get_martial_status(rnd_value)
-            race = get_race(rnd_value)
+            gender = get_gender(rnd_gender)
+            martial_status = get_martial_status(random.random())
+            race = get_race(random.random())
+            religion = get_regilion(random.random())
 
             csv_writer.writerow(
                 [
@@ -429,6 +272,7 @@ def write_data(rec_count):
                     gender,
                     martial_status,
                     race,
+                    religion
                 ]
             )
 
