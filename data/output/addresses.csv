@@ -1,201 +1,201 @@
 "id","address","city","state","zip","country","property_type","assessed_value"
-1,"9578 Rocks Lane","Arlington","TX","76010","United States","Single-family",972026
-2,"4128 Oaks Bend","New York","NY","10007","United States","Farm",426470
-3,"7009 Summit Burg","Dallas","TX","75201","United States","Single-family",656659
-4,"6225 Orchard Burg","New York","NY","10007","United States","Townhouse",1164248
-5,"5364 Fourth Bend","Chicago","IL","60602","United States","Multi-family",1136767
-6,"7581 Landing Court","Charlotte","NC","28202","United States","Single-family",1194205
-7,"7318 Worth Road","Baltimore","MD","21202","United States","Single-family",212304
-8,"3888 Orchard Avenue","New York","NY","10007","United States","Mobile home",856857
-9,"9440 Rock Circle","Tucson","AZ","85701","United States","Single-family",184466
-10,"6041 Isle Brook","El Paso","TX","79901","United States","Single-family",943596
-11,"1280 Maple Lane","Los Angeles","CA","90001","United States","Multi-family",932177
-12,"9145 Sixth Drive","New York","NY","10007","United States","Multi-family",883722
-13,"8809 Vista Bluff","New York","NY","10007","United States","Farm",53078
-14,"8973 Landing Street","San Diego","CA","92101","United States","Single-family",1020606
-15,"2629 River Circle","Cleveland","OH","44113","United States","Single-family",319682
-16,"4103 Broadway Road","Detroit","MI","48226","United States","Single-family",427434
-17,"7382 Canyon Lane","San Diego","CA","92101","United States","Single-family",986403
-18,"7905 Glen Parkway","St. Louis","MO","63102","United States","Single-family",324889
-19,"1845 Seventh Circle","Phoenix","AZ","85003","United States","Single-family",433604
-20,"1982 Lawn Brook","Raleigh","NC","27601","United States","Single-family",395870
-21,"7602 Tunnel Branch","New York","NY","10007","United States","Multi-family",307675
-22,"1746 Green Circle","Minneapolis","MN","55402","United States","Single-family",603681
-23,"6551 Lawn Brook","San Antonio","TX","78205","United States","Single-family",115378
-24,"4182 Summit Avenue","Chicago","IL","60602","United States","Multi-family",720163
-25,"9741 Creek Circle","Oklahoma City","OK","73102","United States","Single-family",203320
-26,"6581 Way Burg","El Paso","TX","79901","United States","Single-family",1042443
-27,"6872 Parkway Avenue","Louisville","KY","40202","United States","Single-family",493713
-28,"8647 Cove Boulevard","Boston","MA","02108","United States","Single-family",1113636
-29,"858 Rock Highway","New York","NY","10007","United States","Multi-family",208080
-30,"6488 Bridge Bend","Las Vegas","NV","89101","United States","Single-family",584696
-31,"9076 Vista Bend","San Antonio","TX","78205","United States","Single-family",1014023
-32,"3456 Mountain Commons","Los Angeles","CA","90001","United States","Multi-family",470413
-33,"4612 First Burg","New York","NY","10007","United States","Other",1152917
-34,"7303 Road Branch","New York","NY","10007","United States","Townhouse",977043
-35,"5599 Plain Drive","Dallas","TX","75201","United States","Single-family",750035
-36,"5018 Bluff Court","Kansas City","MO","64102","United States","Single-family",729654
-37,"9048 Path Bend","New York","NY","10007","United States","Multi-family",923191
-38,"5701 Island Lane","New York","NY","10007","United States","Townhouse",1085820
-39,"7467 Woods Trail","Houston","TX","77002","United States","Multi-family",81243
-40,"7302 Ash Street","Los Angeles","CA","90001","United States","Multi-family",925494
-41,"4059 Turnpike Street","New York","NY","10007","United States","Multi-family",631048
-42,"1727 Heights Boulevard","Los Angeles","CA","90001","United States","Multi-family",252031
-43,"2720 Shore Lane","Milwaukee","WI","53202","United States","Single-family",941791
-44,"8828 Meadows Bridge","Albuquerque","NM","87102","United States","Single-family",546281
-45,"5986 Turnpike Circle","Virginia Beach","VA","23451","United States","Single-family",572334
-46,"6931 Dale Street","Denver","CO","80202","United States","Single-family",215057
-47,"9339 Ridge Bend","New York","NY","10007","United States","Condo",1150277
-48,"4029 First Bridge","Charlotte","NC","28202","United States","Single-family",656210
-49,"2492 Cove Brook","Seattle","WA","98101","United States","Single-family",623335
-50,"70 Falls Lane","Louisville","KY","40202","United States","Single-family",517841
-51,"5599 Road Bridge","Albuquerque","NM","87102","United States","Single-family",509697
-52,"8365 Shoals Bridge","Phoenix","AZ","85003","United States","Single-family",621034
-53,"8614 Mount Circle","Detroit","MI","48226","United States","Single-family",861038
-54,"8984 Ash Bridge","New York","NY","10007","United States","Mobile home",638806
-55,"9749 Main Drive","Nashville","TN","37203","United States","Single-family",943600
-56,"6601 Meadows Bluff","Baltimore","MD","21202","United States","Single-family",221055
-57,"3484 Mills Lane","Oklahoma City","OK","73102","United States","Single-family",381791
-58,"2575 Burg Branch","Los Angeles","CA","90001","United States","Multi-family",828679
-59,"8977 Lawn Terrace","Arlington","TX","76010","United States","Single-family",587447
-60,"714 Road Bridge","Charlotte","NC","28202","United States","Single-family",154832
-61,"1141 Main Square","Aurora","CO","80010","United States","Single-family",224547
-62,"8460 Manor Trail","Boston","MA","02108","United States","Single-family",128790
-63,"5774 Turnpike Bluff","Philadelphia","PA","19107","United States","Multi-family",858726
-64,"8370 Second Road","Louisville","KY","40202","United States","Single-family",1172992
-65,"1362 Rocks Bridge","Cleveland","OH","44113","United States","Single-family",696951
-66,"5571 Wells Terrace","Chicago","IL","60602","United States","Multi-family",610926
-67,"8062 Rock Branch","New York","NY","10007","United States","Townhouse",1120678
-68,"6041 Road Burg","Philadelphia","PA","19107","United States","Multi-family",482405
-69,"7553 Grove Branch","Aurora","CO","80010","United States","Single-family",1178487
-70,"2455 Sunset Way","Washington","DC","20001","United States","Single-family",455103
-71,"9177 Dale Court","Fort Worth","TX","76102","United States","Single-family",872673
-72,"6471 Shore Square","Louisville","KY","40202","United States","Single-family",1198869
-73,"628 Plains Commons","Newark","NJ","07102","United States","Single-family",446774
-74,"6584 Fifth Way","Philadelphia","PA","19107","United States","Multi-family",129953
-75,"2811 Mountain Circle","New York","NY","10007","United States","Farm",493971
-76,"8431 Pass Parkway","San Francisco","CA","94102","United States","Single-family",668662
-77,"1007 Terrace Court","Los Angeles","CA","90001","United States","Multi-family",410415
-78,"8581 Manor Place","Albuquerque","NM","87102","United States","Single-family",793586
-79,"5281 Meadow Burg","Minneapolis","MN","55402","United States","Single-family",982314
-80,"2039 Elm Place","Houston","TX","77002","United States","Multi-family",835439
-81,"4066 Maple Highway","Boston","MA","02108","United States","Single-family",385705
-82,"6666 Ash Square","Chicago","IL","60602","United States","Multi-family",260883
-83,"5477 Ash Commons","Los Angeles","CA","90001","United States","Multi-family",982023
-84,"2468 Oaks Brook","San Diego","CA","92101","United States","Single-family",439079
-85,"4994 Summit Bluff","New York","NY","10007","United States","Multi-family",287337
-86,"7406 Track Circle","New York","NY","10007","United States","Condo",1107753
-87,"1370 Maple Boulevard","San Diego","CA","92101","United States","Single-family",431420
-88,"9384 Oaks Bridge","New York","NY","10007","United States","Multi-family",514389
-89,"9976 Ash Burg","Los Angeles","CA","90001","United States","Multi-family",1094171
-90,"7916 Oaks Burg","Minneapolis","MN","55402","United States","Single-family",483718
-91,"1788 Terrace Bend","New York","NY","10007","United States","Multi-family",936252
-92,"6534 Plains Bridge","New York","NY","10007","United States","Townhouse",420931
-93,"1914 Sixth Drive","Chicago","IL","60602","United States","Multi-family",294837
-94,"634 Shore Trail","Phoenix","AZ","85003","United States","Single-family",573394
-95,"724 Sunset Bluff","Chicago","IL","60602","United States","Multi-family",426163
-96,"3480 Downs Alley","Detroit","MI","48226","United States","Single-family",470163
-97,"9768 Cedar Alley","Virginia Beach","VA","23451","United States","Single-family",95228
-98,"44 Green Avenue","Chicago","IL","60602","United States","Multi-family",193076
-99,"3709 Fork Way","Phoenix","AZ","85003","United States","Single-family",1109779
-100,"1157 Broadway Square","Baltimore","MD","21202","United States","Single-family",1152149
-101,"9798 Broadway Square","New York","NY","10007","United States","Mobile home",651215
-102,"2510 Cape Bridge","Omaha","NE","68102","United States","Single-family",661187
-103,"6666 Brook Boulevard","Virginia Beach","VA","23451","United States","Single-family",282011
-104,"734 Sunset Lane","Los Angeles","CA","90001","United States","Multi-family",743985
-105,"6414 Hickory Place","Boston","MA","02108","United States","Single-family",681119
-106,"2501 Way Commons","Milwaukee","WI","53202","United States","Single-family",548684
-107,"5604 Trail Lane","New York","NY","10007","United States","Mobile home",350354
-108,"1942 Port Commons","Los Angeles","CA","90001","United States","Multi-family",609161
-109,"6114 Mount Street","Mesa","AZ","85201","United States","Single-family",912668
-110,"1824 Cove Square","Baltimore","MD","21202","United States","Single-family",934906
-111,"5580 Mountain Bridge","Atlanta","GA","30303","United States","Single-family",484864
-112,"1943 Ville Highway","Los Angeles","CA","90001","United States","Multi-family",1117360
-113,"6564 Plains Lane","Memphis","TN","38103","United States","Single-family",409541
-114,"892 Bury Burg","Fresno","CA","93721","United States","Single-family",592384
-115,"1880 Plain Parkway","Austin","TX","78701","United States","Single-family",969212
-116,"2859 Manor Lane","Portland","OR","97201","United States","Single-family",456097
-117,"6437 Vale Alley","El Paso","TX","79901","United States","Single-family",662118
-118,"4531 Vale Brook","New York","NY","10007","United States","Townhouse",198344
-119,"8446 Crest Parkway","Seattle","WA","98101","United States","Single-family",465994
-120,"7046 Oak Bluff","San Francisco","CA","94102","United States","Single-family",982512
-121,"7861 Grove Court","Washington","DC","20001","United States","Single-family",916679
-122,"460 Dam Brook","Sacramento","CA","95814","United States","Single-family",222784
-123,"1643 Station Court","New York","NY","10007","United States","Multi-family",400184
-124,"281 Lake Court","Boston","MA","02108","United States","Single-family",251882
-125,"6222 Falls Alley","Phoenix","AZ","85003","United States","Single-family",504047
-126,"9599 Springs Alley","New York","NY","10007","United States","Townhouse",608265
-127,"295 Canyon Place","Atlanta","GA","30303","United States","Single-family",895702
-128,"4022 Crossing Bridge","New York","NY","10007","United States","Condo",843386
-129,"3747 Cove Terrace","Houston","TX","77002","United States","Multi-family",883772
-130,"2718 Grove Circle","Chicago","IL","60602","United States","Multi-family",118477
-131,"7405 Rocks Drive","Dallas","TX","75201","United States","Single-family",970972
-132,"4883 Pike Bend","Chicago","IL","60602","United States","Multi-family",684861
-133,"2261 Fifth Burg","Dallas","TX","75201","United States","Single-family",1157760
-134,"405 Spring Place","Fresno","CA","93721","United States","Single-family",489960
-135,"2797 Creek Way","New York","NY","10007","United States","Multi-family",529343
-136,"3015 Meadow Square","San Jose","CA","95113","United States","Single-family",944781
-137,"7741 Cedar Road","San Diego","CA","92101","United States","Single-family",696352
-138,"6192 Estates Place","San Jose","CA","95113","United States","Single-family",664256
-139,"193 Path Square","New York","NY","10007","United States","Townhouse",434314
-140,"498 Fifth Court","New York","NY","10007","United States","Other",78167
-141,"4196 Canyon Way","New York","NY","10007","United States","Condo",310597
-142,"1862 Cape Bluff","Fresno","CA","93721","United States","Single-family",1193809
-143,"6660 Park Bend","Chicago","IL","60602","United States","Multi-family",906077
-144,"2523 Mills Terrace","Chicago","IL","60602","United States","Multi-family",1097181
-145,"7942 Dale Bend","Los Angeles","CA","90001","United States","Multi-family",61566
-146,"7492 Vista Bridge","San Antonio","TX","78205","United States","Single-family",222483
-147,"1561 Knoll Way","Los Angeles","CA","90001","United States","Multi-family",1185527
-148,"2351 Turnpike Bluff","Indianapolis","IN","46204","United States","Single-family",1053755
-149,"5619 Crossing Commons","New York","NY","10007","United States","Other",457995
-150,"2884 Glen Square","New York","NY","10007","United States","Condo",484031
-151,"6736 Meadows Place","Detroit","MI","48226","United States","Single-family",311227
-152,"9225 Wood Alley","Charlotte","NC","28202","United States","Single-family",103707
-153,"6154 Terrace Boulevard","Albuquerque","NM","87102","United States","Single-family",264587
-154,"7058 Pike Brook","Jacksonville","FL","32202","United States","Single-family",186082
-155,"6066 Estates Drive","Los Angeles","CA","90001","United States","Multi-family",169670
-156,"7766 Dale Drive","Philadelphia","PA","19107","United States","Multi-family",454476
-157,"982 Sunset Bluff","Milwaukee","WI","53202","United States","Single-family",408142
-158,"3016 Knoll Street","New York","NY","10007","United States","Condo",417940
-159,"3377 Prairie Street","New York","NY","10007","United States","Multi-family",1068321
-160,"7777 Trail Branch","Los Angeles","CA","90001","United States","Multi-family",1154424
-161,"8495 Sixth Highway","New York","NY","10007","United States","Mobile home",833754
-162,"4091 Skyway Court","Tampa","FL","33602","United States","Single-family",1053628
-163,"7218 Village Boulevard","New York","NY","10007","United States","Farm",1065013
-164,"5397 Village Square","San Antonio","TX","78205","United States","Single-family",75309
-165,"273 Creek Brook","Dallas","TX","75201","United States","Single-family",401765
-166,"2194 Broadway Place","New York","NY","10007","United States","Multi-family",329457
-167,"4022 Springs Street","San Diego","CA","92101","United States","Single-family",136297
-168,"6968 Pine Burg","Dallas","TX","75201","United States","Single-family",1050173
-169,"8127 Sixth Road","St. Louis","MO","63102","United States","Single-family",916493
-170,"4566 Ash Circle","Los Angeles","CA","90001","United States","Multi-family",1112108
-171,"5744 Creek Place","Chicago","IL","60602","United States","Multi-family",968360
-172,"8321 Bluff Terrace","New York","NY","10007","United States","Mobile home",718906
-173,"2311 Oaks Bridge","Long Beach","CA","90802","United States","Single-family",365657
-174,"267 Mount Drive","Columbus","OH","43215","United States","Single-family",918321
-175,"5456 Brook Place","Chicago","IL","60602","United States","Multi-family",562273
-176,"5282 Rock Road","Kansas City","MO","64102","United States","Single-family",575523
-177,"8404 Shoals Way","New York","NY","10007","United States","Farm",993506
-178,"8172 Vista Parkway","Buffalo","NY","14202","United States","Single-family",939940
-179,"3806 Skyway Place","San Francisco","CA","94102","United States","Single-family",171974
-180,"1629 Main Court","Anchorage","AK","99501","United States","Single-family",901672
-181,"1049 Bridge Alley","Las Vegas","NV","89101","United States","Single-family",277572
-182,"7188 Bluff Brook","Las Vegas","NV","89101","United States","Single-family",654550
-183,"724 Isle Branch","Oakland","CA","94607","United States","Single-family",813273
-184,"2043 Ville Highway","Oklahoma City","OK","73102","United States","Single-family",358164
-185,"6319 Orchard Road","Detroit","MI","48226","United States","Single-family",639737
-186,"8610 Seventh Court","Memphis","TN","38103","United States","Single-family",370558
-187,"5943 Pine Court","Columbus","OH","43215","United States","Single-family",132652
-188,"5906 Fifth Branch","Austin","TX","78701","United States","Single-family",931534
-189,"3519 Lake Avenue","Dallas","TX","75201","United States","Single-family",857721
-190,"8745 Landing Highway","Boston","MA","02108","United States","Single-family",1127812
-191,"5849 Bury Bridge","Virginia Beach","VA","23451","United States","Single-family",306585
-192,"2289 Bridge Highway","Dallas","TX","75201","United States","Single-family",52964
-193,"4375 Place Burg","Tampa","FL","33602","United States","Single-family",532563
-194,"1558 Way Street","Columbus","OH","43215","United States","Single-family",1074196
-195,"734 Bluff Commons","Nashville","TN","37203","United States","Single-family",1092329
-196,"5686 Plains Street","Houston","TX","77002","United States","Multi-family",423765
-197,"9230 Skyway Bend","San Antonio","TX","78205","United States","Single-family",809019
-198,"9014 Isle Brook","Indianapolis","IN","46204","United States","Single-family",1121414
-199,"5670 Landing Bend","Arlington","TX","76010","United States","Single-family",149597
-200,"4617 Bend Terrace","Los Angeles","CA","90001","United States","Multi-family",1175076
+1,"8669 Trail Way","Los Angeles","CA","90001","United States","Multi-family",276569
+2,"5622 Place Street","Las Vegas","NV","89101","United States","Single-family",547011
+3,"1305 Grove Place","Los Angeles","CA","90001","United States","Multi-family",480877
+4,"1031 Mount Bridge","Cleveland","OH","44113","United States","Single-family",1004745
+5,"7434 Meadow Way","Oakland","CA","94607","United States","Single-family",100545
+6,"2341 Orchard Square","New York","NY","10007","United States","Condo",523370
+7,"1914 Ash Square","Memphis","TN","38103","United States","Single-family",762127
+8,"512 Maple Avenue","Oakland","CA","94607","United States","Single-family",874136
+9,"5036 Meadow Commons","New York","NY","10007","United States","Townhouse",1161757
+10,"902 Creek Brook","Oklahoma City","OK","73102","United States","Single-family",737620
+11,"92 Sixth Circle","Los Angeles","CA","90001","United States","Multi-family",677555
+12,"8428 Divide Street","Los Angeles","CA","90001","United States","Multi-family",618275
+13,"8845 Orchard Commons","Charlotte","NC","28202","United States","Single-family",351423
+14,"7588 Ash Square","Atlanta","GA","30303","United States","Single-family",324543
+15,"3447 Ville Road","Baltimore","MD","21202","United States","Single-family",539438
+16,"5438 Dam Place","New York","NY","10007","United States","Condo",733799
+17,"6927 Turnpike Brook","Houston","TX","77002","United States","Multi-family",1032843
+18,"2481 Dale Way","Mesa","AZ","85201","United States","Single-family",711126
+19,"4901 Road Highway","Colorado Springs","CO","80903","United States","Single-family",677024
+20,"3796 Sunset Bluff","Detroit","MI","48226","United States","Single-family",301079
+21,"3544 Mills Branch","New York","NY","10007","United States","Multi-family",93931
+22,"3720 Spring Way","Washington","DC","20001","United States","Single-family",748453
+23,"7840 Trace Branch","Los Angeles","CA","90001","United States","Multi-family",695294
+24,"3828 Bluff Highway","New York","NY","10007","United States","Multi-family",1180939
+25,"9055 Meadows Circle","San Antonio","TX","78205","United States","Single-family",619051
+26,"8985 Heights Alley","Cincinnati","OH","45202","United States","Single-family",891985
+27,"9280 Hill Circle","Austin","TX","78701","United States","Single-family",1136674
+28,"2089 Dam Terrace","Philadelphia","PA","19107","United States","Multi-family",457504
+29,"2318 Island Place","Columbus","OH","43215","United States","Single-family",513013
+30,"3260 First Street","Dallas","TX","75201","United States","Single-family",806716
+31,"8763 Creek Terrace","Houston","TX","77002","United States","Multi-family",745478
+32,"3934 Woods Commons","Chicago","IL","60602","United States","Multi-family",1055399
+33,"559 Vista Brook","Colorado Springs","CO","80903","United States","Single-family",837454
+34,"3797 Springs Alley","Seattle","WA","98101","United States","Single-family",588117
+35,"7118 Falls Bluff","Houston","TX","77002","United States","Multi-family",1045318
+36,"9143 Canyon Terrace","Philadelphia","PA","19107","United States","Multi-family",1033491
+37,"2961 Mills Drive","Las Vegas","NV","89101","United States","Single-family",1110890
+38,"5427 View Court","Indianapolis","IN","46204","United States","Single-family",332400
+39,"9563 Divide Circle","Phoenix","AZ","85003","United States","Single-family",862343
+40,"3501 Turnpike Alley","Memphis","TN","38103","United States","Single-family",1118878
+41,"6149 Second Alley","Phoenix","AZ","85003","United States","Single-family",1008684
+42,"3617 Ville Court","Chicago","IL","60602","United States","Multi-family",914886
+43,"2367 Harbor Parkway","Columbus","OH","43215","United States","Single-family",821088
+44,"2317 Vista Brook","Houston","TX","77002","United States","Multi-family",871672
+45,"6235 Bluff Avenue","Fresno","CA","93721","United States","Single-family",1160991
+46,"5325 Landing Circle","New York","NY","10007","United States","Townhouse",169029
+47,"8399 Walk Bridge","Houston","TX","77002","United States","Multi-family",745195
+48,"436 Wells Parkway","Los Angeles","CA","90001","United States","Multi-family",936654
+49,"6500 Spring Trail","San Diego","CA","92101","United States","Single-family",468120
+50,"2056 Fifth Bridge","Austin","TX","78701","United States","Single-family",176696
+51,"4290 Burg Highway","Chicago","IL","60602","United States","Multi-family",702511
+52,"4178 Cove Place","Detroit","MI","48226","United States","Single-family",1186251
+53,"9639 Mills Street","Houston","TX","77002","United States","Multi-family",238284
+54,"5528 Oaks Circle","Portland","OR","97201","United States","Single-family",1111276
+55,"5959 Spring Place","Anaheim","CA","92801","United States","Single-family",788381
+56,"4369 Bridge Drive","San Diego","CA","92101","United States","Single-family",953528
+57,"8646 Rock Place","New York","NY","10007","United States","Townhouse",834140
+58,"5222 Shore Place","Virginia Beach","VA","23451","United States","Single-family",528328
+59,"7739 View Way","Kansas City","MO","64102","United States","Single-family",1054174
+60,"1927 Turnpike Burg","Fresno","CA","93721","United States","Single-family",485008
+61,"6854 Fork Square","New York","NY","10007","United States","Farm",232391
+62,"3307 Brook Avenue","Los Angeles","CA","90001","United States","Multi-family",838738
+63,"8351 Brook Bend","New York","NY","10007","United States","Mobile home",1153905
+64,"334 Pike Place","El Paso","TX","79901","United States","Single-family",1193120
+65,"1083 Divide Bluff","Austin","TX","78701","United States","Single-family",1038802
+66,"7190 Wells Bend","Albuquerque","NM","87102","United States","Single-family",506271
+67,"289 Station Highway","Chicago","IL","60602","United States","Multi-family",202395
+68,"2977 Terrace Boulevard","Newark","NJ","07102","United States","Single-family",716300
+69,"1518 Mountain Branch","Los Angeles","CA","90001","United States","Multi-family",1053769
+70,"5865 Village Bend","Phoenix","AZ","85003","United States","Single-family",701406
+71,"7124 Bend Place","New York","NY","10007","United States","Multi-family",754899
+72,"8987 Ridge Avenue","Seattle","WA","98101","United States","Single-family",1028270
+73,"4840 Prairie Trail","Austin","TX","78701","United States","Single-family",944440
+74,"544 Oaks Brook","San Diego","CA","92101","United States","Single-family",761607
+75,"8063 Vista Highway","Newark","NJ","07102","United States","Single-family",573338
+76,"7068 Wells Place","Pittsburgh","PA","15222","United States","Single-family",524306
+77,"2432 Shoals Place","Albuquerque","NM","87102","United States","Single-family",884972
+78,"9688 Orchard Court","San Diego","CA","92101","United States","Single-family",1044705
+79,"6708 Ridge Highway","Fort Worth","TX","76102","United States","Single-family",132696
+80,"7644 Mission Commons","Houston","TX","77002","United States","Multi-family",1027786
+81,"1480 Pike Way","Tucson","AZ","85701","United States","Single-family",1027515
+82,"1839 Bend Burg","Mesa","AZ","85201","United States","Single-family",674121
+83,"9874 Second Trail","Philadelphia","PA","19107","United States","Multi-family",435277
+84,"5542 Woods Lane","Los Angeles","CA","90001","United States","Multi-family",910001
+85,"2371 Woods Burg","Charlotte","NC","28202","United States","Single-family",141689
+86,"420 Broadway Commons","Houston","TX","77002","United States","Multi-family",236723
+87,"9906 Landing Circle","Dallas","TX","75201","United States","Single-family",248036
+88,"6819 Creek Trail","Long Beach","CA","90802","United States","Single-family",1043978
+89,"2247 Crest Terrace","New York","NY","10007","United States","Multi-family",645981
+90,"4327 Hickory Circle","Oklahoma City","OK","73102","United States","Single-family",948457
+91,"500 Road Trail","Los Angeles","CA","90001","United States","Multi-family",989069
+92,"3528 Mission Bridge","Las Vegas","NV","89101","United States","Single-family",765089
+93,"4500 Rocks Terrace","Boston","MA","02108","United States","Single-family",658791
+94,"8507 Way Way","Austin","TX","78701","United States","Single-family",360614
+95,"4709 Skyway Bend","Portland","OR","97201","United States","Single-family",582329
+96,"9272 Shores Drive","New York","NY","10007","United States","Condo",349285
+97,"3964 Mission Bend","Boston","MA","02108","United States","Single-family",385744
+98,"3939 Road Terrace","Sacramento","CA","95814","United States","Single-family",865719
+99,"8609 Mill Boulevard","New York","NY","10007","United States","Farm",734083
+100,"1466 Ville Street","Pittsburgh","PA","15222","United States","Single-family",382365
+101,"9454 Place Burg","Chicago","IL","60602","United States","Multi-family",816795
+102,"9235 River Terrace","New York","NY","10007","United States","Townhouse",67822
+103,"2237 Brook Bridge","San Antonio","TX","78205","United States","Single-family",1013944
+104,"8303 Maple Place","Buffalo","NY","14202","United States","Single-family",693807
+105,"3794 Estates Alley","Portland","OR","97201","United States","Single-family",929778
+106,"1549 Skyway Terrace","Philadelphia","PA","19107","United States","Multi-family",196777
+107,"798 Mountain Avenue","St. Louis","MO","63102","United States","Single-family",402004
+108,"861 Oaks Street","Oakland","CA","94607","United States","Single-family",471581
+109,"8309 Well Street","Denver","CO","80202","United States","Single-family",1061110
+110,"4890 Pike Square","New York","NY","10007","United States","Mobile home",88711
+111,"3278 Brook Burg","New York","NY","10007","United States","Townhouse",903402
+112,"5218 Creek Bend","Houston","TX","77002","United States","Multi-family",1079419
+113,"5137 Ash Street","Atlanta","GA","30303","United States","Single-family",1096672
+114,"6430 Tunnel Highway","Boston","MA","02108","United States","Single-family",185725
+115,"3233 Branch Trail","Washington","DC","20001","United States","Single-family",855999
+116,"8373 Pike Highway","Memphis","TN","38103","United States","Single-family",768721
+117,"4446 Wood Road","San Diego","CA","92101","United States","Single-family",978709
+118,"7239 Pass Boulevard","Milwaukee","WI","53202","United States","Single-family",744796
+119,"5404 Seventh Way","Indianapolis","IN","46204","United States","Single-family",806543
+120,"1755 Green Branch","New York","NY","10007","United States","Mobile home",120371
+121,"6645 Spur Avenue","Columbus","OH","43215","United States","Single-family",306598
+122,"3139 Dam Boulevard","Chicago","IL","60602","United States","Multi-family",1069978
+123,"9801 Harbor Burg","Los Angeles","CA","90001","United States","Multi-family",193134
+124,"7022 Meadow Branch","New York","NY","10007","United States","Townhouse",376544
+125,"3021 Oaks Drive","Los Angeles","CA","90001","United States","Multi-family",532553
+126,"572 Trail Bluff","New York","NY","10007","United States","Other",185213
+127,"9011 Valley Parkway","New York","NY","10007","United States","Other",906626
+128,"6371 Cape Avenue","Indianapolis","IN","46204","United States","Single-family",806248
+129,"8799 Divide Road","San Jose","CA","95113","United States","Single-family",322655
+130,"1792 Second Way","Las Vegas","NV","89101","United States","Single-family",605943
+131,"8693 Tunnel Place","Colorado Springs","CO","80903","United States","Single-family",201508
+132,"1784 Mountain Bend","Las Vegas","NV","89101","United States","Single-family",789091
+133,"4164 Turnpike Court","Aurora","CO","80010","United States","Single-family",322777
+134,"8157 Knoll Highway","Anaheim","CA","92801","United States","Single-family",1166577
+135,"8198 Oaks Drive","Dallas","TX","75201","United States","Single-family",576423
+136,"6268 Divide Lane","Sacramento","CA","95814","United States","Single-family",1143842
+137,"2165 Falls Drive","New York","NY","10007","United States","Condo",376802
+138,"6573 Broadway Road","New York","NY","10007","United States","Condo",694081
+139,"8481 Estates Bluff","Charlotte","NC","28202","United States","Single-family",538176
+140,"9849 Hollow Square","Charlotte","NC","28202","United States","Single-family",425378
+141,"4696 Shores Court","San Francisco","CA","94102","United States","Single-family",789401
+142,"6264 Road Lane","New York","NY","10007","United States","Condo",270832
+143,"8784 Bridge Commons","Louisville","KY","40202","United States","Single-family",811353
+144,"4127 Station Court","Aurora","CO","80010","United States","Single-family",831627
+145,"5595 Valley Street","Jacksonville","FL","32202","United States","Single-family",994114
+146,"367 Third Circle","New York","NY","10007","United States","Condo",980855
+147,"5421 Third Square","New York","NY","10007","United States","Townhouse",616418
+148,"5893 Broadway Highway","New York","NY","10007","United States","Condo",984982
+149,"383 Wells Place","Fresno","CA","93721","United States","Single-family",1077504
+150,"1836 Woods Bluff","Houston","TX","77002","United States","Multi-family",857589
+151,"1373 Ville Avenue","Omaha","NE","68102","United States","Single-family",669346
+152,"9303 Plain Boulevard","Washington","DC","20001","United States","Single-family",771974
+153,"3159 Ridge Boulevard","New York","NY","10007","United States","Multi-family",608417
+154,"9490 Hickory Brook","Fresno","CA","93721","United States","Single-family",310575
+155,"6317 Lake Avenue","Los Angeles","CA","90001","United States","Multi-family",65061
+156,"5048 Knoll Court","Milwaukee","WI","53202","United States","Single-family",489662
+157,"6802 Canyon Road","Dallas","TX","75201","United States","Single-family",196238
+158,"8572 Port Bridge","Phoenix","AZ","85003","United States","Single-family",429533
+159,"4546 Mission Brook","Bakersfield","CA","93301","United States","Single-family",1117990
+160,"3867 Springs Boulevard","New York","NY","10007","United States","Mobile home",827349
+161,"5443 Rock Boulevard","New York","NY","10007","United States","Multi-family",1072295
+162,"5976 Pike Bend","Buffalo","NY","14202","United States","Single-family",137199
+163,"1315 Shoals Road","Nashville","TN","37203","United States","Single-family",1050804
+164,"2067 Worth Trail","San Francisco","CA","94102","United States","Single-family",303519
+165,"280 Estates Burg","Anchorage","AK","99501","United States","Single-family",672372
+166,"4212 Pike Burg","Los Angeles","CA","90001","United States","Multi-family",1049178
+167,"9544 Ville Brook","New York","NY","10007","United States","Farm",1191399
+168,"6992 Green Lane","Las Vegas","NV","89101","United States","Single-family",771378
+169,"4013 Plains Place","St. Louis","MO","63102","United States","Single-family",551205
+170,"9833 Cove Highway","Fresno","CA","93721","United States","Single-family",598370
+171,"1090 Fifth Trail","New York","NY","10007","United States","Condo",254216
+172,"7311 Summit Circle","New York","NY","10007","United States","Condo",306244
+173,"5724 Shoals Avenue","Washington","DC","20001","United States","Single-family",118538
+174,"7333 Bluff Street","Dallas","TX","75201","United States","Single-family",248354
+175,"3636 Turnpike Street","Indianapolis","IN","46204","United States","Single-family",440829
+176,"5348 Port Boulevard","Dallas","TX","75201","United States","Single-family",274706
+177,"6902 Walk Bend","Bakersfield","CA","93301","United States","Single-family",272834
+178,"1936 Orchard Road","Milwaukee","WI","53202","United States","Single-family",1153392
+179,"611 River Bridge","Fresno","CA","93721","United States","Single-family",1078983
+180,"5361 Mission Court","Philadelphia","PA","19107","United States","Multi-family",449761
+181,"2612 Bend Circle","Charlotte","NC","28202","United States","Single-family",408068
+182,"6349 Springs Trail","Colorado Springs","CO","80903","United States","Single-family",153270
+183,"6269 Bridge Way","Indianapolis","IN","46204","United States","Single-family",102147
+184,"9016 Hickory Boulevard","Kansas City","MO","64102","United States","Single-family",912561
+185,"6647 Burg Terrace","New York","NY","10007","United States","Multi-family",500016
+186,"7692 Heights Trail","Jacksonville","FL","32202","United States","Single-family",315582
+187,"2669 Knoll Brook","Long Beach","CA","90802","United States","Single-family",385341
+188,"2344 Walk Bend","Long Beach","CA","90802","United States","Single-family",138947
+189,"4978 Landing Boulevard","Houston","TX","77002","United States","Multi-family",859631
+190,"3804 Brook Brook","Denver","CO","80202","United States","Single-family",1162703
+191,"8524 Rocks Bend","Houston","TX","77002","United States","Multi-family",1127501
+192,"2396 Hill Bend","San Jose","CA","95113","United States","Single-family",303703
+193,"2342 Meadow Bend","Dallas","TX","75201","United States","Single-family",729763
+194,"7807 Pine Trail","Los Angeles","CA","90001","United States","Multi-family",621078
+195,"5364 Branch Lane","Albuquerque","NM","87102","United States","Single-family",636819
+196,"7032 Brook Street","Chicago","IL","60602","United States","Multi-family",207426
+197,"2997 Lake Burg","New York","NY","10007","United States","Other",68885
+198,"4283 Ash Bluff","San Jose","CA","95113","United States","Single-family",956246
+199,"6651 Wood Circle","San Diego","CA","92101","United States","Single-family",238242
+200,"5151 Lawn Circle","Jacksonville","FL","32202","United States","Single-family",85251
