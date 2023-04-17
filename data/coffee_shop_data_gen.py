@@ -7,10 +7,11 @@
 # Write a program that creates synthetic sales data for a coffee shop.
 # The program should accept a command line argument that specifies the number of records to generate.
 # The program should write the sales data to a file called 'coffee_shop_sales.csv'.
-# The program should contain a main function that calls the other functions.
-# The program should contain a function that returns one random product from a list of dictionaries.
-# The program should contain a function that returns a dictionary containing one sales record.
-# The program should contain a function that writes the sales records to a file.
+# The program should contain the following functions:
+#   - main() function that calls the other functions
+#   - function that returns one random product from a list of dictionaries
+#   - function that returns a dictionary containing one sales record
+#   - function that writes the sales records to a file
 
 import csv
 import random

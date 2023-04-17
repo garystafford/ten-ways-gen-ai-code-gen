@@ -7,6 +7,12 @@
 # Write an application that create a random list of united states addresses.
 # Include address, city, state, zip code, country, and property type.
 # Write the data to a csv file.
+# The application should contain the following functions:
+#   - main() function that calls the other functions
+#   - function that returns a list of common street names in the United States
+#   - function that returns a list of common street types in the United States
+#   - function that returns a list of common city, state, zip code, and population in the United States
+#   - function that returns a property type
 
 
 import csv
@@ -89,7 +95,9 @@ def prepare_cities(cities):
 
 
 # Write a function to returns the 50 largest cities in the United States.
+# List should be in alphabetical order.
 # Include the city, state abbreviation, zip code, and population.
+# Return a list of dictionaries.
 def get_cities():
     cities = [
         {"city": "Albuquerque", "state": "NM", "zip": "87102", "population": 559277},

@@ -25,6 +25,7 @@ def main():
 
 
 # Write a function that generates common feminine first names in the United States.
+# List should be in alphabetical order.
 # Each name should be unique.
 # Return random first name.
 def get_first_name_feminine():
@@ -42,6 +43,7 @@ def get_first_name_feminine():
 
 
 # Write a function that generates common masculine first names in the United States.
+# List should be in alphabetical order.
 # Each name should be unique.
 # Return random first name.
 def get_first_name_masculine():
@@ -67,10 +69,7 @@ def get_first_name_masculine():
 # Return a random gender.
 # Accept a random value between 0 and 1 as an input parameter.
 # The function must return one of the following values based on the %:
-# 53% chance of being male,
-# 40% chace of being female,
-# 6% chance of being other,
-# 1% chance of being transgender
+# 53% Male, 40% Female, 6% Other, 1% Transgender
 def get_gender(rnd_value):
     if rnd_value < 0.53:
         return "Male"
@@ -98,6 +97,7 @@ def get_first_name(rnd_value):
 
 
 # Write a function that generates common last names in the United States.
+# List should be in alphabetical order.
 # Each name should be unique.
 # Return random last name.
 def get_last_name():
@@ -123,9 +123,7 @@ def get_last_name():
 # Return random martial status.
 # Accept a random value between 0 and 1 as an input parameter.
 # The function must return one of the following values based on the %:
-# 50% chance of being married,
-# 33% chance of being single,
-# 17% chance of being unknown
+# 50% Married, 33% Single, 17% Unknown
 def get_martial_status(rnd_value):
     if rnd_value < 0.50:
         return "Married"
@@ -139,11 +137,7 @@ def get_martial_status(rnd_value):
 # Return random race.
 # Accept a random value between 0 and 1 as an input parameter.
 # The function must return one of the following values based on the %:
-# 58% chance of being white,
-# 19% chance of being hispanic,
-# 12% chance of being black,
-# 6% chance of being asian,
-# 4% chance of being multiracial
+# 58% White, 19% Hispanic, 12% Black, 6% Asian, 4% Multiracial
 def get_race(rnd_value):
     if rnd_value < 0.58:
         return "White"
@@ -161,14 +155,8 @@ def get_race(rnd_value):
 # Return random regilion.
 # Accept a random value between 0 and 1 as an input parameter.
 # The function must return one of the following values based on the %:
-# 70% chance of being christian,
-# 20% chance of being agnostic,
-# 3% chance of being atheist,
-# 2% chance of being jewish,
-# 2% chance of being other,
-# 1% chance of being muslim,
-# 1% chance of being hindu,
-# 1% chance of being buddhist
+# 70% Christian, 20% Agnostic, 3% Atheist, 2% Jewish,
+# 2% Other, 1% Muslim, 1% Hindu, 1% Buddhist
 def get_regilion(rnd_value):
     if rnd_value < 0.7:
         return "Christian"
@@ -192,10 +180,7 @@ def get_regilion(rnd_value):
 # Return a random gender.
 # Accept a random value between 0 and 1 as an input parameter.
 # The function must return one of the following values based on the %:
-# 53% chance of being male,
-# 40% chace of being female,
-# 6% chance of being other,
-# 1% chance of being transgender
+# 53% Male, 40% Female, 6% Other, 1% Transgender
 def get_gender(rnd_value):
     if rnd_value < 0.53:
         return "Male"
