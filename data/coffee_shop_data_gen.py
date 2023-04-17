@@ -82,7 +82,7 @@ def get_product():
 #   - product_id, product, calories, price, and type (from the get_product function)
 #   - quantity (a random integer between 1 and 3)
 #   - amount (price * quantity)
-#   - payment type (cash, credit, debit, or gift card)
+#   - payment type: Cash, Credit, Debit, Gift card, Apple Pay, Google Pay, Venmo 
 def get_sales_record():
     # get a random product
     product = get_product()
