@@ -25,7 +25,7 @@ class TestCoffeeShop(unittest.TestCase):
         self.assertIn(product["calories"], range(0, 512 + 1))
         self.assertGreaterEqual(product["price"], 2.00)
         self.assertLessEqual(product["price"], 7.99)
-        self.assertIn(product["type"], ["food", "drink"])
+        self.assertIn(product["type"], ["Food", "Drink"])
 
     # write a unit test for the get_sales_record function
     def test_get_sales_record(self):
@@ -53,14 +53,18 @@ class TestCoffeeShop(unittest.TestCase):
         self.assertGreaterEqual(sale["price"], 2.00)
         self.assertLessEqual(sale["price"], 7.00)
         self.assertIn(sale["quantity"], range(1, 3 + 1))
-        self.assertIn(sale["type"], ["food", "drink"])
+        self.assertIn(sale["type"], ["Food", "Drink"])
         self.assertGreaterEqual(sale["amount"], 2.00 * 1)
         self.assertLessEqual(sale["amount"], 7.99 * 3)
+        self.assertIn(sale["payment_type"], [
+            "Cash", "Credit", "Debit", "Gift card", "Apple Pay", "Google Pay", "Venmo"])
 
     # write a unit test for the write_sales_records function
     def test_write_sales_records(self):
-        write_data(10)
-        with open("output/coffee_shop_sales_test.csv", "r") as csv_file:
+        file_name = "output/coffee_shop_sales_test.csv"
+        write_data(10, file_name)
+        
+        with open(file_name, "r") as csv_file:
             csv_reader = csv.reader(
                 csv_file, delimiter=",", quotechar='"', quoting=csv.QUOTE_NONNUMERIC
             )
