@@ -165,7 +165,7 @@ def get_first_name_masculine():
 
 # write a function that returns a feminine or masculine first name
 # return random first name
-# accept a random value between 0 and 1
+# accept a random value between 0 and 1 as an input parameter
 # 32% chance of being feminine, 68% chance of being masculine
 def get_first_name(rnd_value):
     if rnd_value < 0.32:
@@ -283,7 +283,7 @@ def get_last_name():
 
 # write a function that returns a martial status
 # return random martial status
-# accept a random value between 0 and 1
+# accept a random value between 0 and 1 as an input parameter
 # 50% chance of being married,
 # 33% chance of being single,
 # 17% chance of being unknown
@@ -298,20 +298,20 @@ def get_martial_status(rnd_value):
 
 # write a function that returns a person's rache
 # return random race
-# accept a random value between 0 and 1
+# accept a random value between 0 and 1 as an input parameter
 # 58% chance of being white,
 # 19% chance of being hispanic,
 # 12% chance of being black,
 # 6% chance of being asian,
 # 4% chance of being multiracial
 def get_race(rnd_value):
-    if rnd_value < .58:
+    if rnd_value < 0.58:
         return "White"
-    elif rnd_value < .77:
+    elif rnd_value < 0.77:
         return "Hispanic"
-    elif rnd_value < .89:
+    elif rnd_value < 0.89:
         return "Black"
-    elif rnd_value < .95:
+    elif rnd_value < 0.95:
         return "Asian"
     else:
         return "Multiracial"
@@ -319,7 +319,7 @@ def get_race(rnd_value):
 
 # write a function that returns a person's regilion
 # return random regilion
-# accept a random value between 0 and 1
+# accept a random value between 0 and 1 as an input parameter
 # 70% chance of being christian,
 # 20% chance of being agnostic,
 # 3% chance of being atheist,
@@ -349,7 +349,7 @@ def get_regilion(rnd_value):
 
 # write a function that returns a person's gender
 # return a random gender
-# accept a random value between 0 and 1
+# accept a random value between 0 and 1 as an input parameter
 # 40% chace of being female,
 # 53% chance of being male,
 # 6% chance of being other,
@@ -365,11 +365,12 @@ def get_gender(rnd_value):
         return "Transgener"
 
 
-# # write a function that generates a normal distribution
-# # with a mean of 40 and a standard deviation of 10
-# # return random age
-# def get_age():
-#     return int(random.normalvariate(40, 10))
+# write a function that generates a normal distribution of ages
+# using normalvariate() from the random module
+# with a mean of 40 and a standard deviation of 10
+# return random age as an integer
+def get_age():
+    return int(random.normalvariate(40, 10))
 
 
 # write a function that generates a random date of birth

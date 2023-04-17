@@ -6,7 +6,8 @@
 
 # write a program that creates synthetic sales data for a coffee shop
 # the program should accept a command line argument that specifies the number of records to generate
-# the program should write the sales data to a file called coffee_shop_sales.csv# the program should contain a main function that calls the other functions
+# the program should write the sales data to a file called coffee_shop_sales.csv
+# the program should contain a main function that calls the other functions
 # the program should contain a function that returns one random product from a list of dictionaries
 # the program should contain a function that returns a dictionary containing one sales record
 # the program should contain a function that writes the sales records to a file
@@ -42,181 +43,31 @@ def main():
 # return a random item from the list of dictionaries
 def get_product():
     products = [
-        {
-            "id": 1,
-            "product": "Latte",
-            "calories": 120,
-            "price": 3.50,
-            "type": "drink"
-        },
-        {
-            "id": 2,
-            "product": "Cappuccino",
-            "calories": 100,
-            "price": 3.00,
-            "type": "drink"
-        },
-        {
-            "id": 3,
-            "product": "Americano",
-            "calories": 5,
-            "price": 2.50,
-            "type": "drink"
-        },
-        {
-            "id": 4,
-            "product": "Espresso",
-            "calories": 10,
-            "price": 2.00,
-            "type": "drink"
-        },
-        {
-            "id": 5,
-            "product": "Mocha",
-            "calories": 250,
-            "price": 4.00,
-            "type": "drink"
-        },
-        {
-            "id": 6,
-            "product": "Iced Coffee",
-            "calories": 80,
-            "price": 2.50,
-            "type": "drink"
-        },
-        {
-            "id": 7,
-            "product": "Hot Chocolate",
-            "calories": 300,
-            "price": 3.50,
-            "type": "drink"
-        },
-        {
-            "id": 8,
-            "product": "Tea",
-            "calories": 0,
-            "price": 2.00,
-            "type": "drink"
-        },
-        {
-            "id": 9,
-            "product": "Frappe",
-            "calories": 450,
-            "price": 5.00,
-            "type": "drink"
-        },
-        {
-            "id": 10,
-            "product": "Smoothie",
-            "calories": 200,
-            "price": 4.00,
-            "type": "drink"
-        },
-        {
-            "id": 11,
-            "product": "Iced Tea",
-            "calories": 0,
-            "price": 2.50,
-            "type": "drink"
-        },
-        {
-            "id": 12,
-            "product": "Lemonade",
-            "calories": 120,
-            "price": 3.00,
-            "type": "drink"
-        },
-        {
-            "id": 13,
-            "product": "Hot Tea",
-            "calories": 0,
-            "price": 2.00,
-            "type": "drink"
-        },
-        {
-            "id": 14,
-            "product": "Chai Tea",
-            "calories": 200,
-            "price": 3.50,
-            "type": "drink"
-        },
-        {
-            "id": 15,
-            "product": "Iced Chai",
-            "calories": 250,
-            "price": 4.00,
-            "type": "drink"
-        },
-        {
-            "id": 16,
-            "product": "Croissant",
-            "calories": 231,
-            "price": 2.99,
-            "type": "food"
-        },
-        {
-            "id": 17,
-            "product": "Bagel",
-            "calories": 289,
-            "price": 3.49,
-            "type": "food"
-        },
-        {
-            "id": 18,
-            "product": "Muffin",
-            "calories": 426,
-            "price": 3.99,
-            "type": "food"
-        },
-        {
-            "id": 19,
-            "product": "Sandwich",
-            "calories": 512,
-            "price": 6.99,
-            "type": "food"
-        },
-        {
-            "id": 20,
-            "product": "Wrap",
-            "calories": 388,
-            "price": 5.99,
-            "type": "food"
-        },
-        {
-            "id": 21,
-            "product": "Salad",
-            "calories": 231,
-            "price": 7.99,
-            "type": "food"
-        },
-        {
-            "id": 22,
-            "product": "Quiche",
-            "calories": 456,
-            "price": 4.99,
-            "type": "food"
-        },
-        {
-            "id": 23,
-            "product": "Scone",
-            "calories": 335,
-            "price": 2.49,
-            "type": "food"
-        },
-        {
-            "id": 24,
-            "product": "Pastry",
-            "calories": 397,
-            "price": 3.99,
-            "type": "food"
-        },
-        {
-            "id": 25,
-            "product": "Cake",
-            "calories": 512,
-            "price": 5.99,
-            "type": "food"
-        },
+        {"id": 1, "product": "Latte", "calories": 120, "price": 3.50, "type": "drink"},
+        {"id": 2, "product": "Cappuccino", "calories": 100, "price": 3.00, "type": "drink"},
+        {"id": 3, "product": "Americano", "calories": 5, "price": 2.50, "type": "drink"},
+        {"id": 4, "product": "Espresso", "calories": 10, "price": 2.00, "type": "drink"},
+        {"id": 5, "product": "Mocha", "calories": 250, "price": 4.00, "type": "drink"},
+        {"id": 6, "product": "Iced Coffee", "calories": 80, "price": 2.50, "type": "drink"},
+        {"id": 7, "product": "Hot Chocolate", "calories": 300, "price": 3.50, "type": "drink"},
+        {"id": 8, "product": "Tea", "calories": 0, "price": 2.00, "type": "drink"},
+        {"id": 9, "product": "Frappe", "calories": 450, "price": 5.00, "type": "drink"},
+        {"id": 10, "product": "Smoothie", "calories": 200, "price": 4.00, "type": "drink"},
+        {"id": 11, "product": "Iced Tea", "calories": 0, "price": 2.50, "type": "drink"},
+        {"id": 12, "product": "Lemonade", "calories": 120, "price": 3.00, "type": "drink"},
+        {"id": 13, "product": "Hot Tea", "calories": 0, "price": 2.00, "type": "drink"},
+        {"id": 14, "product": "Chai Tea", "calories": 200, "price": 3.50, "type": "drink"},
+        {"id": 15, "product": "Iced Chai", "calories": 250, "price": 4.00, "type": "drink"},
+        {"id": 16, "product": "Croissant", "calories": 231, "price": 2.99, "type": "food"},
+        {"id": 17, "product": "Bagel", "calories": 289, "price": 3.49, "type": "food"},
+        {"id": 18, "product": "Muffin", "calories": 426, "price": 3.99, "type": "food"},
+        {"id": 19, "product": "Sandwich", "calories": 512, "price": 6.99, "type": "food"},
+        {"id": 20, "product": "Wrap", "calories": 388, "price": 5.99, "type": "food"},
+        {"id": 21, "product": "Salad", "calories": 231, "price": 7.99, "type": "food"},
+        {"id": 22, "product": "Quiche", "calories": 456, "price": 4.99, "type": "food"},
+        {"id": 23, "product": "Scone", "calories": 335, "price": 2.49, "type": "food"},
+        {"id": 24, "product": "Pastry", "calories": 397, "price": 3.99, "type": "food"},
+        {"id": 25, "product": "Cake", "calories": 512, "price": 5.99, "type": "food"},
     ]
 
     # return one random item from list of dictionaries
@@ -296,6 +147,7 @@ def write_data(rec_count):
                                 quoting=csv.QUOTE_MINIMAL)
 
         # write the header row
+        # id,date,time,product_id,product,calories,price,type,quantity,amount,payment_type
         csv_writer.writerow([
             "id",
             "date",
