@@ -1,12 +1,12 @@
-# Purpose: Generate user data
+# Purpose: Generate demographic data
 # Author: Gary A. Stafford and GitHub Copilot
 # Date: 2023-04-14
-# Usage: python3 user_data_gen.py 100
+# Usage: python3 demographic_data_gen.py 100
 # Command-line argument(s): rec_count (number of records to generate as an integer)
 
 # Write an application that create a random list of user data.
 # The application should accept a command line argument that specifies the number of records to generate.
-# The application should write the user data to a file called 'user_data.csv'.
+# The application should write the user data to a file called 'demographic_data.csv'.
 # The application should contain the following functions:
 #   - main() function that calls the other functions
 #   - function that returns a random first name
@@ -24,7 +24,7 @@ from datetime import date, timedelta
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate user data")
+    parser = argparse.ArgumentParser(description="Generate demographic data")
     parser.add_argument(
         "rec_count", type=int, help="The number of records to generate", default=100
     )
@@ -220,7 +220,7 @@ def get_dob():
     return dob
 
 
-# Create a function to write the users records to a csv file called 'users.csv'.
+# Create a function to write the users records to a csv file called 'demographic.csv'.
 # Use an input parameter to specify the number of records to write.
 # The csv file must have a header row and be comma delimited.
 # String values must be enclosed in double quotes.
