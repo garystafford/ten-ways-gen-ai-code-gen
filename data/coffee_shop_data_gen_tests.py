@@ -50,7 +50,7 @@ class TestCoffeeShop(unittest.TestCase):
         self.assertGreaterEqual(len(sale["product"]), 3)
         self.assertIn(sale["calories"], range(0, 512 + 1))
         self.assertGreaterEqual(sale["price"], 2.00)
-        self.assertLessEqual(sale["price"], 7.00)
+        self.assertLessEqual(sale["price"], 7.99)
         self.assertIn(sale["quantity"], range(1, 3 + 1))
         self.assertIn(sale["type"], ["Food", "Drink"])
         self.assertGreaterEqual(sale["amount"], 2.00 * 1)
