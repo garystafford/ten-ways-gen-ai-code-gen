@@ -29,7 +29,7 @@ def main():
         "rec_count", type=int, help="The number of records to generate", default=100
     )
 
-    # 1x at start
+    # add population calculations to the city data
     cities = get_cities()
     prepare_cities(cities)
 
@@ -61,14 +61,14 @@ def get_street_name():
     return random.choice(street_names)
 
 
-# Write a function that creates a list of common street types 
+# Write a function that creates a list of common street types
 # in the United States, in alphabetical order.
 # Each one should be unique.
 # Return a random street type.
 def get_street_type():
     street_types = [
-        "Alley", "Avenue", "Bend", "Bluff", "Boulevard", "Branch", "Bridge", "Brook", 
-        "Burg", "Circle", "Commons", "Court", "Drive", "Highway", "Lane", "Parkway", 
+        "Alley", "Avenue", "Bend", "Bluff", "Boulevard", "Branch", "Bridge", "Brook",
+        "Burg", "Circle", "Commons", "Court", "Drive", "Highway", "Lane", "Parkway",
         "Place", "Road", "Square", "Street", "Terrace", "Trail", "Way"
     ]
 

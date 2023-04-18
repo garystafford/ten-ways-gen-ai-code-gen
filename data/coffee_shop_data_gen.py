@@ -13,12 +13,11 @@
 #   - function that returns a dictionary containing one sales record
 #   - function that writes the sales records to a file
 
+import argparse
 import csv
+import hashlib
 import random
 from datetime import datetime, timedelta
-import argparse
-
-sale_id = 0
 
 
 def main():
@@ -77,7 +76,7 @@ def get_product():
 
 # Write a function to return a random sales record.
 # The record should be a dictionary with the following fields:
-#   - id (an incrementing integer starting at 1)
+#   - transaction_id (a hash of the date, time, and product_id)
 #   - date (a random date between 1/1/2022 and 12/31/2022)
 #   - time (a random time between 6:00am and 9:00pm in 1 minute increments)
 #   - product_id, product, calories, price, and type (from the get_product function)
@@ -87,10 +86,6 @@ def get_product():
 def get_sales_record():
     # get a random product
     product = get_product()
-
-    # sale_id is an incrementing integer starting at 1
-    global sale_id
-    sale_id += 1
 
     # get a random date between 1/1/2022 and 12/31/2022
     start_date = datetime(2022, 1, 1)
@@ -117,9 +112,8 @@ def get_sales_record():
         ["Cash", "Credit", "Debit", "Gift card", "Apple Pay", "Google Pay", "Venmo"])
 
     sales_record = {
-        "id": sale_id,
         "date": random_date.strftime("%m/%d/%Y"),
-        "time": random_time.strftime("%I:%M%p"),
+        "time": random_time.strftime("%H:%M:%S"),
         "product_id": product["id"],
         "product": product["product"],
         "calories": product["calories"],
@@ -150,7 +144,7 @@ def write_data(rec_count):
         # write the header row
         # id,date,time,product_id,product,calories,price,type,quantity,amount,payment_type
         csv_writer.writerow([
-            "id",
+            "transaction_id",
             "date",
             "time",
             "product_id",
@@ -166,8 +160,9 @@ def write_data(rec_count):
         # write the sales records
         for i in range(rec_count):
             sale = get_sales_record()
+            transaction_id = hashlib.md5((f'{sale["date"]} {sale["time"]} {sale["product_id"]}').encode()).hexdigest()
             csv_writer.writerow([
-                sale["id"],
+                transaction_id,
                 sale["date"],
                 sale["time"],
                 sale["product_id"],

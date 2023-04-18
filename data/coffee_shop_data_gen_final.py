@@ -4,12 +4,11 @@
 # Usage: python3 coffee_shop_data_gen_final.py 100
 # Command-line argument(s): rec_count (number of records to generate as an integer)
 
+import argparse
 import csv
+import hashlib
 import random
 from datetime import datetime, timedelta
-import argparse
-
-sale_id = 0
 
 
 def main():
@@ -71,9 +70,6 @@ def get_sales_record():
 
     product = get_product()
 
-    global sale_id
-    sale_id += 1
-
     start_date = datetime(2022, 1, 1)
     end_date = datetime(2022, 12, 31)
     random_date = start_date + timedelta(seconds=random.randint(
@@ -90,9 +86,8 @@ def get_sales_record():
         ["Cash", "Credit", "Debit", "Gift card", "Apple Pay", "Google Pay", "Venmo"])
 
     sales_record = {
-        "id": sale_id,
         "date": random_date.strftime("%m/%d/%Y"),
-        "time": random_time.strftime("%I:%M%p"),
+        "time": random_time.strftime("%H:%M:%S"),
         "product_id": product["id"],
         "product": product["product"],
         "calories": product["calories"],
@@ -124,7 +119,7 @@ def write_data(rec_count, file_name="output/coffee_shop_sales_data.csv"):
                                 quoting=csv.QUOTE_NONNUMERIC)
 
         csv_writer.writerow([
-            "id",
+            "transaction_id",
             "date",
             "time",
             "product_id",
@@ -139,8 +134,9 @@ def write_data(rec_count, file_name="output/coffee_shop_sales_data.csv"):
 
         for i in range(rec_count):
             sale = get_sales_record()
+            transaction_id = hashlib.md5((f'{sale["date"]} {sale["time"]} {sale["product_id"]}').encode()).hexdigest()
             csv_writer.writerow([
-                sale["id"],
+                transaction_id,
                 sale["date"],
                 sale["time"],
                 sale["product_id"],

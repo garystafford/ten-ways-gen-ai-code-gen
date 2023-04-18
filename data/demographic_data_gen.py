@@ -4,9 +4,9 @@
 # Usage: python3 demographic_data_gen.py 100
 # Command-line argument(s): rec_count (number of records to generate as an integer)
 
-# Write an application that create a random list of user data.
+# Write an application that creates a file containing demographic data.
 # The application should accept a command line argument that specifies the number of records to generate.
-# The application should write the user data to a file called 'demographic_data.csv'.
+# The application should write the demographic data to a file called 'demographic_data.csv'.
 # The application should contain the following functions:
 #   - main() function that calls the other functions
 #   - function that returns a random first name
@@ -33,7 +33,7 @@ def main():
     write_data(rec_count)
 
 
-# Write a function that generates common feminine first names in the United States.
+# Write a function that generates a list of common feminine first names in the United States.
 # List should be in alphabetical order.
 # Each name should be unique.
 # Return random first name.
@@ -51,7 +51,7 @@ def get_first_name_feminine():
     return random.choice(first_name_feminine)
 
 
-# Write a function that generates common masculine first names in the United States.
+# Write a function that generates a list of common masculine first names in the United States.
 # List should be in alphabetical order.
 # Each name should be unique.
 # Return random first name.
@@ -74,21 +74,6 @@ def get_first_name_masculine():
     return random.choice(first_names_masculine)
 
 
-# Write a function that returns a person's gender.
-# Return a random gender.
-# Accept a random value between 0 and 1 as an input parameter.
-# The function must return one of the following values based on the %:
-# 53% Male, 40% Female, 6% Other, 1% Transgender
-def get_gender(rnd_value):
-    if rnd_value < 0.53:
-        return "Male"
-    elif rnd_value < 0.93:
-        return "Feamle"
-    elif rnd_value < 0.99:
-        return "Other"
-    else:
-        return "Transgener"
-
 # Write a function that returns a feminine or masculine first name.
 # Return random first name.
 # Accept a random value between 0 and 1 as an input parameter.
@@ -105,7 +90,7 @@ def get_first_name(rnd_value):
         return get_first_name_feminine()
 
 
-# Write a function that generates common last names in the United States.
+# Write a function that generates a list of common last names in the United States.
 # List should be in alphabetical order.
 # Each name should be unique.
 # Return random last name.
@@ -209,9 +194,9 @@ def get_age():
     return int(random.normalvariate(40, 10))
 
 
-# Write a function that generates a random date of birth.
-# Return random date of birth as a string in the format YYYY-MM-DD
+# Write a function that generates a normal distribution of date of births.
 # with a mean year of 1975 and a standard deviation of 10.
+# Return random date of birth as a string in the format YYYY-MM-DD
 def get_dob():
     day_of_year = random.randint(1, 365)
     year_of_birth = int(random.normalvariate(1975, 10))
@@ -220,21 +205,21 @@ def get_dob():
     return dob
 
 
-# Create a function to write the users records to a csv file called 'demographic.csv'.
+# Create a function to write the demographic records to a csv file called 'demographic_data.csv'.
 # Use an input parameter to specify the number of records to write.
 # The csv file must have a header row and be comma delimited.
 # String values must be enclosed in double quotes.
 def write_data(rec_count):
-    user_id = 0
+    id = 0
 
-    with open("output/user_data.csv", "w", newline="") as csv_file:
+    with open("output/demographic_data.csv", "w", newline="") as csv_file:
         csv_writer = csv.writer(
             csv_file, delimiter=",", quotechar='"', quoting=csv.QUOTE_NONNUMERIC
         )
 
         csv_writer.writerow(
             [
-                "user_id",
+                "id",
                 "first_name",
                 "last_name",
                 "dob",
@@ -248,7 +233,7 @@ def write_data(rec_count):
         for i in range(rec_count):
             rnd_gender = random.random()
 
-            user_id += 1
+            id += 1
             first_name = get_first_name(rnd_gender)
             last_name = get_last_name()
             dob = get_dob()
@@ -259,7 +244,7 @@ def write_data(rec_count):
 
             csv_writer.writerow(
                 [
-                    user_id,
+                    id,
                     first_name,
                     last_name,
                     dob,

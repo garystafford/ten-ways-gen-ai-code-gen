@@ -30,7 +30,6 @@ class TestCoffeeShop(unittest.TestCase):
     # write a unit test for the get_sales_record function
     def test_get_sales_record(self):
         sale = get_sales_record()
-        self.assertIn(sale["id"], range(1, 1000 + 1))
         self.assertGreaterEqual(
             datetime.strptime(sale["date"], "%m/%d/%Y"),
             datetime.strptime("01/01/2022", "%m/%d/%Y"),
@@ -40,11 +39,11 @@ class TestCoffeeShop(unittest.TestCase):
             datetime.strptime("12/31/2022", "%m/%d/%Y"),
         )
         self.assertGreaterEqual(
-            datetime.strptime(sale["time"], "%I:%M%p"),
+            datetime.strptime(sale["time"], "%H:%M:%S"),
             datetime.strptime("6:00am", "%I:%M%p"),
         )
         self.assertLessEqual(
-            datetime.strptime(sale["time"], "%I:%M%p"),
+            datetime.strptime(sale["time"], "%H:%M:%S"),
             datetime.strptime("9:00pm", "%I:%M%p"),
         )
         self.assertIn(sale["product_id"], range(1, 25 + 1))
@@ -63,7 +62,7 @@ class TestCoffeeShop(unittest.TestCase):
     def test_write_sales_records(self):
         file_name = "output/coffee_shop_sales_data_test.csv"
         write_data(10, file_name)
-        
+
         with open(file_name, "r") as csv_file:
             csv_reader = csv.reader(
                 csv_file, delimiter=",", quotechar='"', quoting=csv.QUOTE_NONNUMERIC
