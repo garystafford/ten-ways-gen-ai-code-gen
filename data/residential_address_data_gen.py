@@ -194,7 +194,7 @@ def get_property_type(rnd_value):
         return "Other"
 
 
-# Create a function to write the address records to a csv file called 'addresses.csv'.
+# Create a function to write the address records to a csv file called 'address_data.csv'.
 # Use an input parameter to specify the number of records to write.
 # The csv file must have a header row and be comma delimited.
 # All string values must be enclosed in double quotes.
@@ -219,15 +219,14 @@ def write_data(rec_count):
         )
 
         for i in range(rec_count):
-            rnd_value = random.random()
             address_id += 1
             street_name = get_street_name()
             street_type = get_street_type()
             street_address = f"{random.randint(1, 9999)} {street_name} {street_type}"
-            city_state_zip = get_city(rnd_value)
+            city_state_zip = get_city(random.random())
             country = "United States"
-            property_type = get_property_type(rnd_value)
-            assessed_value = random.randint(50000, 1200000)
+            property_type = get_property_type(random.random())
+            assessed_value = random.randint(52500, 1950000)
 
             csv_writer.writerow(
                 [

@@ -13,7 +13,7 @@
 #   - function that returns a random last name
 #   - function that returns a random date of birth
 #   - function that returns a random gender
-#   - function that returns a random regilious affiliation
+#   - function that returns a random religious affiliation
 #   - function that returns a random race
 
 
@@ -160,7 +160,7 @@ def get_race(rnd_value):
         return "Multiracial"
 
 
-# Write a function that returns a person's regilion.
+# Write a function that returns a person's religious affiliation.
 # Return random regilion.
 # Accept a random value between 0 and 1 as an input parameter.
 # The function must return one of the following values based on the %:

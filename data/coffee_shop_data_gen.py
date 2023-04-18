@@ -39,7 +39,7 @@ def main():
 
 # Write a function to create list of dictionaries.
 # The list of dictionaries should contain 15 drink items and 10 food items sold in a coffee shop.
-# Include the product id, product name, calories, price, and type (food or drink).
+# Include the product id, product name, calories, price, and type (Food or Drink).
 # Capilize the first letter of each product name.
 # Return a random item from the list of dictionaries.
 def get_product():
