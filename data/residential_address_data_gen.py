@@ -1,7 +1,7 @@
 # Purpose: Generate US residential address data
 # Author: Gary A. Stafford and GitHub Copilot
 # Date: 2023-04-13
-# Usage: python3 address_data_gen_final.py 100
+# Usage: python3 residential_address_data_gen.py 100
 # Command-line argument(s): rec_count (number of records to generate as an integer)
 
 # Write an application that create a random list of united states addresses.
@@ -96,8 +96,8 @@ def prepare_cities(cities):
 
 
 # Write a function to returns the 50 largest cities in the United States.
-# List should be in alphabetical order.
 # Include the city, state abbreviation, zip code, and population.
+# List should be sorted in descending order by population.
 # Return a list of dictionaries.
 def get_cities():
     cities = [
