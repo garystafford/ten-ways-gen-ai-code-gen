@@ -1,4 +1,4 @@
-# Purpose: Generate US residential address data
+# Purpose: Generate synthetic US residential address data
 # Author: Gary A. Stafford and GitHub Copilot
 # Date: 2023-04-13
 # Usage: python3 residential_address_data_gen.py 100

@@ -1,4 +1,4 @@
-# Purpose: Generate coffee shop sales data
+# Purpose: Generate synthetic coffee shop sales data
 # Author: OpenAI ChatGPT
 # Date: 2023-04-14
 # Usage: python3 chatgpt_coffee_shop_sales_data.py

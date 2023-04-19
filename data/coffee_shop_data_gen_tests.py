@@ -1,4 +1,4 @@
-# Purpose: Test coffee shop sales data generator
+# Purpose: Test synthetic coffee shop sales data generator
 # Author: Gary A. Stafford and GitHub Copilot
 # Date: 2023-04-13
 # Usage: pytest coffee_shop_data_gen_tests.py -v

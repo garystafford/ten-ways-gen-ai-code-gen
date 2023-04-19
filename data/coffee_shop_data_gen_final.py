@@ -1,4 +1,4 @@
-# Purpose: Generate coffee shop sales data
+# Purpose: Generate synthetic coffee shop sales data
 # Author: Gary A. Stafford and GitHub Copilot
 # Date: 2023-04-12
 # Usage: python3 coffee_shop_data_gen_final.py 100

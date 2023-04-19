@@ -1,4 +1,4 @@
-# Purpose: Generate demographic data
+# Purpose: Generate synthetic demographic data
 # Author: Gary A. Stafford and GitHub Copilot
 # Date: 2023-04-14
 # Usage: python3 demographic_data_gen.py 100
