@@ -16,14 +16,33 @@ All the code samples shown in this post are included in this project. Files with
 ├── appdev
 │   ├── README.md
 │   ├── dynamodemo
+│   │   ├── dynamodemo
 │   │   ├── go.mod
 │   │   ├── go.sum
 │   │   └── main.go
-│   └── main_partial.go
+│   ├── main_partial.go
+│   └── node
+│       ├── app.js
+│       ├── package.json
+│       └── yarn.lock
 ├── cloudformation
 │   ├── cloudformation_final.json
 │   ├── cloudformation_final.yaml
 │   └── cloudformation_partial.yaml
+├── data
+│   ├── README.md
+│   ├── chatgpt_coffee_shop_sales_data.py
+│   ├── coffee_shop_data_gen.py
+│   ├── coffee_shop_data_gen_final.py
+│   ├── coffee_shop_data_gen_tests.py
+│   ├── demographic_data_gen.py
+│   ├── output
+│   │   ├── address_data.csv
+│   │   ├── coffee_shop_sales_data.csv
+│   │   ├── coffee_shop_sales_data_chatgpt.csv
+│   │   ├── coffee_shop_sales_data_test.csv
+│   │   └── demographic_data.csv
+│   └── residential_address_data_gen.py
 ├── iam
 │   ├── s3_policy_final.json
 │   └── s3_policy_partial.json
@@ -49,6 +68,4 @@ All the code samples shown in this post are included in this project. Files with
 └── utilities
     ├── utility_final.py
     └── utility_partial.py
-
-13 directories, 29 files
 ```
