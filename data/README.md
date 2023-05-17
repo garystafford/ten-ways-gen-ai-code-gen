@@ -1,5 +1,14 @@
 # Generative AI for Synthetic Data Creation
 
+## Python Files
+
+1. `chatgpt_coffee_data_gen.py` - data generator for coffee shop data, built using ChatGPT
+2. `coffee_shop_data_gen_initial.py` - initial version of data generator for coffee shop data, built using Copilot
+3. `coffee_shop_data_gen_final.py` - final version of data generator for coffee shop data
+4. `coffee_shop_data_gen_tests.py` - unit tests for data generator for coffee shop data
+5. `demographic_data_gen.py` - data generator for demographic data
+6. `residential_address_data_gen.py` - data generator for residential address data
+
 ## Liniting and Testing Process
 
 ```bash

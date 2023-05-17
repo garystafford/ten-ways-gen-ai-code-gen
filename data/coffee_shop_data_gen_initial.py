@@ -1,7 +1,7 @@
-# Purpose: Generate synthetic coffee shop sales data
+# Purpose: Generate synthetic coffee shop sales data (initial version using Copilot)
 # Author: Gary A. Stafford and GitHub Copilot
 # Date: 2023-04-12
-# Usage: python3 coffee_shop_data_gen.py 100
+# Usage: python3 coffee_shop_data_gen_initial.py 100
 # Command-line argument(s): rec_count (number of records to generate as an integer)
 
 # Write a program that creates synthetic sales data for a coffee shop.
