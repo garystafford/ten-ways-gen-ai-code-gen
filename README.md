@@ -6,9 +6,9 @@ The synthetic data sample applications are detailed in the post [Unlocking the P
 
 ## Resources
 
-All the code samples shown in in the two posts listed above are included in this project. Files with the suffix `_partial` are the partial code samples used to generate code with by GitHub Copilot. Files with the suffix `_final` are the final, complete code samples, which have been tested and run.
+All the code samples shown in in the two posts listed above are included in this project. Files with the suffix `_partial` are the partial code samples used to demonstrate code generateration with by GitHub Copilot or similar AI coding assistants. Files with the suffix `_final` are the final, complete code samples, which have been tested and run.
 
-All samples were created in Visual Studio Code using the GitHub Copilot Nightly extension. For a indepth of analysis of mutliple generative AI-powered coding assistants, see the post, [Accelerate Software Development with Six Popular Generative AI-Powered Coding Tools](https://medium.com/@garystafford/accelerating-development-with-generative-ai-powered-coding-tools-f1480664b6ab): Explore six popular generative AI-powered tools, including ChatGPT, Copilot, CodeWhisperer, Tabnine, Bing, and ChatSonic. This post is also available on [LinkedIn](https://www.linkedin.com/pulse/accelerating-development-generative-ai-powered-gary-stafford/).
+All samples were created in Visual Studio Code using the latest GitHub Copilot Nightly extension. For a indepth of analysis of mutliple generative AI-powered coding assistants, see the post, [Accelerate Software Development with Six Popular Generative AI-Powered Coding Tools](https://medium.com/@garystafford/accelerating-development-with-generative-ai-powered-coding-tools-f1480664b6ab): Explore six popular generative AI-powered tools, including ChatGPT, Copilot, CodeWhisperer (Preview), Tabnine, Bing, and ChatSonic. This post is also available on [LinkedIn](https://www.linkedin.com/pulse/accelerating-development-generative-ai-powered-gary-stafford/).
 
 ```text
 .
