@@ -12,7 +12,7 @@
 ## Liniting and Testing Process
 
 ```bash
-# files linted with flake8
+# files linted with flake8 (alternative to black)
 python3 -m pip install -U flake8
 python3 -m flake8 --ignore E501 *.py --benchmark -v 
 
