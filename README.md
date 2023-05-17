@@ -4,7 +4,7 @@ Code examples from the post, [Ten Ways to Leverage Generative AI for Development
 
 ## Resources
 
-All the code samples shown in this post are included in this project. Files with the suffix `_partial` are the partial code samples used to generate code with by GitHub Copilot. Files with the suffix `_final` are the final, complete code samples.
+All the code samples shown in this post are included in this project. Files with the suffix `_partial` are the partial code samples used to generate code with by GitHub Copilot. Files with the suffix `_final` are the final, complete code samples. All samples were created in Visual Studio Code using the GitHub Copilot Nightly extension.
 
 ```text
 .
@@ -69,3 +69,7 @@ All the code samples shown in this post are included in this project. Files with
     ├── utility_final.py
     └── utility_partial.py
 ```
+
+---
+
+_The contents of this repository represent my viewpoints and not of my past or current employers, including Amazon Web Services (AWS). All third-party libraries, modules, plugins, and SDKs are the property of their respective owners._
