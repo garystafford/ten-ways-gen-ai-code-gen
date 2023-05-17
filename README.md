@@ -1,12 +1,14 @@
 # Ten Ways to Leverage Generative AI for Development on AWS
 
-Code examples from the post, [Ten Ways to Leverage Generative AI for Development on AWS](https://garystafford.medium.com/ten-ways-to-leverage-generative-ai-for-development-on-aws-c0a11145aa4d): Explore ten ways you can use Generative AI coding tools to accelerate development and increase your productivity on AWS. In the post, we look at the ten ways you can use Generative AI coding tools, like GitHub Copilot, to increase your development productivity on AWS.
+Code examples from the post, [Ten Ways to Leverage Generative AI for Development on AWS](https://garystafford.medium.com/ten-ways-to-leverage-generative-ai-for-development-on-aws-c0a11145aa4d): Explore ten ways you can use Generative AI coding tools to accelerate development and increase your productivity on AWS. In the post, we look at the ten ways you can use Generative AI coding tools, like GitHub Copilot, to increase your development productivity on AWS. This post is also available on [LinkedIn](https://www.linkedin.com/pulse/ten-ways-leverage-generative-ai-development-onaws-gary-stafford/).
 
 The synthetic data sample applications are detailed in the post [Unlocking the Potential of Generative AI for Synthetic Data Generation](https://medium.com/@garystafford/unlocking-the-potential-of-generative-ai-for-synthetic-data-generation-f42907cf0879): Explore the capabilities and applications of generative AI to create realistic synthetic data for software development, analytics, and machine learning.
 
 ## Resources
 
-All the code samples shown in this post are included in this project. Files with the suffix `_partial` are the partial code samples used to generate code with by GitHub Copilot. Files with the suffix `_final` are the final, complete code samples. All samples were created in Visual Studio Code using the GitHub Copilot Nightly extension.
+All the code samples shown in this post are included in this project. Files with the suffix `_partial` are the partial code samples used to generate code with by GitHub Copilot. Files with the suffix `_final` are the final, complete code samples.
+
+All samples were created in Visual Studio Code using the GitHub Copilot Nightly extension. For a indepth of analysis of mutliple generative AI-powered coding assistants, see the post, [Accelerate Software Development with Six Popular Generative AI-Powered Coding Tools](https://medium.com/@garystafford/accelerating-development-with-generative-ai-powered-coding-tools-f1480664b6ab): Explore six popular generative AI-powered tools, including ChatGPT, Copilot, CodeWhisperer, Tabnine, Bing, and ChatSonic. This post is also available on [LinkedIn](https://www.linkedin.com/pulse/accelerating-development-generative-ai-powered-gary-stafford/).
 
 ```text
 .
