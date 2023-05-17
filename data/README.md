@@ -9,6 +9,10 @@
 5. `demographic_data_gen.py` - data generator for demographic data
 6. `residential_address_data_gen.py` - data generator for residential address data
 
+## Sample Output
+
+All sample data output files are located in the `output` directory.
+
 ## Liniting and Testing Process
 
 ```bash
