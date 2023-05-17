@@ -35,9 +35,9 @@ All samples were created in [Visual Studio Code](https://code.visualstudio.com/)
 │   └── cloudformation_partial.yaml
 ├── data
 │   ├── README.md
-│   ├── chatgpt_coffee_shop_sales_data.py
-│   ├── coffee_shop_data_gen.py
+│   ├── chatgpt_coffee_shop_data_gen.py
 │   ├── coffee_shop_data_gen_final.py
+│   ├── coffee_shop_data_gen_initial.py
 │   ├── coffee_shop_data_gen_tests.py
 │   ├── demographic_data_gen.py
 │   ├── output
